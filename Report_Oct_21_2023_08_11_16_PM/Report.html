@@ -1,0 +1,107 @@
+<html>
+                       <link rel='stylesheet' type='text/css' href='./Extras/styleCopy.css'>
+                       <link rel='stylesheet' id='themeStylesheetLink' type='text/css' href='./Extras/themes/forest.css'>
+                           <script>
+                               window.onload = function() {
+                                   var thunderGif = document.getElementById("thunder_gif");
+                                   var screenWidth = window.innerWidth;
+                                   var screenHeight = window.innerHeight;
+                                   setInterval(function() {
+                                       var randomX = Math.floor(Math.random() * screenWidth);
+
+                                       thunderGif.style.left = randomX + "px";
+
+                                   }, 500);
+                               }
+                           </script>
+
+                       <title>HTML REPORTING</title>
+                       <body >          
+                           
+                            <img id="bg" src="Logos/backgroundImg.png" style="position: fixed; top:85px; background-image: url('Logos/backgroundImg.png'); background-repeat: no-repeat; background-size: 100.5%; width:100%; height:100%; z-index:-2">
+                           <div id='headerDiv' style='z-index:10'>
+                               <div id='header' >
+                                   <img src='Logos/Indium-Software-Logo.png' class='indiumLogoNew' width=auto height='75' /> <img src='Logos/client_logo.png' class='clientLogoNew' width=auto height='75' />
+                                   <h1 style='color:white; '>iGAFE - Game Automation Report</h1>
+                               </div>
+                           </div>
+                           <div id="sun">
+        <div class="cloud c1"></div>
+        <div class="cloud c2"></div>
+
+       <div class='bg-container'>
+            <div class='bubbles'>
+                <span style="--i:11;"></span>
+                <span style="--i:12;"></span>
+                <span style="--i:16;"></span>
+                <span style="--i:20;"></span>
+    `       </div>
+        </div>
+    </div>
+      
+    <div id='bird' class='birds-container'>
+        <div class="bird-container bird-container--one">
+        <div class="bird bird--one"></div>
+        </div>
+        
+        <div class="bird-container bird-container--two">
+            <div class="bird bird--two"></div>
+        </div>
+        
+        <div class="bird-container bird-container--three">
+            <div class="bird bird--three"></div>
+        </div>
+        
+        <div class="bird-container bird-container--four">
+            <div class="bird bird--four"></div>
+        </div>
+    </div>
+                           <div class='container'>
+                           <div id='ddb' style='width:50%;'>
+                               <p class='ddb'><strong>Date:</strong> 21-10-2023
+                               &ensp;&ensp;&ensp;&ensp;&ensp;
+                               </p>
+                           </div>
+                           <hr width='65%' color='#024073' style=' width: 60%; margin-top: 2%; height:0.4px; background-color: #e5e5e5; border: none;'>
+               
+                           <nav class="accordion arrows">
+                               <header class="box ">
+                                   <label for="acc-close" class="box-title">Execution Summary &ensp;&ensp;&ensp;
+                                </label>
+                               </header>
+                               <div class="body_container">
+              <table class="body_table">
+                <thead >
+                  <tr >
+                    <th style='text-align: left;'>Machine name</th>
+                    <th>Game Name</th>
+                    <th>Executed</th>
+                    <th>Passed</th>
+                    <th>Failed</th>
+                    <th>Duration</th>
+                  </tr>
+                </thead>
+                <tbody>  <tr class='failedTitle'>
+                                  <td ><a style='color:blue;' href="Android_Report.html">Android</a></td>
+                                            <td>Farm Ville 3</td>
+                                            <td>2</td>
+                                            <td style='color: green;'>1</td>
+                                            <td style='color:red;' >1</td>
+                                            <td>03 min 10 sec</td>
+                                          </tr>
+                                        </tbody>
+                      </table>
+                    </div>
+                               <input type="radio" name="accordion" id="acc-close" />
+                           </nav>
+                           </div>
+
+                           <div  class='dragon_container'>
+                               <img class="dragon" src="Logos/dragon.gif">
+                             </div>
+
+                                              
+                       </body>
+                       <script type='text/javascript' src='./Extras/canvasjs.min.js'></script>
+                       
+                       </html>

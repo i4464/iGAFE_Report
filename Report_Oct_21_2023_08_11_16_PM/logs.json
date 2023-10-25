@@ -1,0 +1,1121 @@
+[
+    {
+        "tag": "function",
+        "depth": 1,
+        "time": 1697899281.00472,
+        "data": {
+            "name": "connect_device",
+            "call_args": {
+                "uri": "android://127.0.0.1:5037/RZ8M31ATM0J"
+            },
+            "start_time": 1697899277.0637,
+            "ret": "<Android 'RZ8M31ATM0J'>",
+            "end_time": 1697899281.00472
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 1,
+        "time": 1697899282.8172643,
+        "data": {
+            "name": "start_app",
+            "call_args": {
+                "package": "com.zynga.farmville3",
+                "activity": null
+            },
+            "start_time": 1697899281.0057485,
+            "ret": null,
+            "end_time": 1697899282.8172643
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 1,
+        "time": 1697899292.8178222,
+        "data": {
+            "name": "sleep",
+            "call_args": {
+                "secs": 10
+            },
+            "start_time": 1697899282.8172643,
+            "ret": null,
+            "end_time": 1697899292.8178222
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 3,
+        "time": 1697899310.813754,
+        "data": {
+            "name": "_cv_match",
+            "call_args": {
+                "self": {
+                    "filename": "../images/Android/farmVille3Image.png",
+                    "_filepath": "D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/farmVille3Image.png",
+                    "threshold": 0.7,
+                    "target_pos": 5,
+                    "record_pos": null,
+                    "resolution": [],
+                    "rgb": false,
+                    "scale_max": 800,
+                    "scale_step": 0.005,
+                    "__class__": "Template"
+                },
+                "screen": "array([[[133, 174, 167],\n        [129, 170, 163],\n        [126, 167, 160],\n        ...,\n        [180, 212, 255],\n        [181, 213, 255],\n        [181, 213, 255]],\n\n       [[132, 173, 166],\n        [129, 170, 163],\n        [125, 166, 159],\n        ...,\n        [180, 212, 255],\n        [181, 213, 255],\n        [181, 213, 255]],\n\n       [[132, 172, 167],\n        [128, 168, 163],\n        [124, 165, 158],\n        ...,\n        [180, 212, 255],\n        [181, 213, 255],\n        [181, 213, 255]],\n\n       ...,\n\n       [[ 74, 109, 112],\n        [ 71, 106, 109],\n        [ 68, 103, 106],\n        ...,\n        [ 72, 132, 191],\n        [ 72, 132, 191],\n        [ 72, 132, 191]],\n\n       [[ 77, 110, 113],\n        [ 75, 108, 111],\n        [ 72, 105, 108],\n        ...,\n        [ 69, 133, 191],\n        [ 69, 133, 191],\n        [ 69, 133, 191]],\n\n       [[ 78, 111, 114],\n        [ 76, 109, 112],\n        [ 73, 106, 109],\n        ...,\n        [ 67, 134, 191],\n        [ 67, 134, 191],\n        [ 67, 134, 191]]], dtype=uint8)"
+            },
+            "start_time": 1697899309.666806,
+            "ret": {
+                "result": [
+                    1729,
+                    605
+                ],
+                "rectangle": [
+                    [
+                        553,
+                        50
+                    ],
+                    [
+                        553,
+                        1160
+                    ],
+                    [
+                        2905,
+                        1160
+                    ],
+                    [
+                        2905,
+                        50
+                    ]
+                ],
+                "confidence": 0.9999585151672363,
+                "time": 0.8951919078826904
+            },
+            "end_time": 1697899310.813754
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 3,
+        "time": 1697899311.465738,
+        "data": {
+            "name": "try_log_screen",
+            "call_args": {
+                "screen": "array([[[133, 174, 167],\n        [129, 170, 163],\n        [126, 167, 160],\n        ...,\n        [180, 212, 255],\n        [181, 213, 255],\n        [181, 213, 255]],\n\n       [[132, 173, 166],\n        [129, 170, 163],\n        [125, 166, 159],\n        ...,\n        [180, 212, 255],\n        [181, 213, 255],\n        [181, 213, 255]],\n\n       [[132, 172, 167],\n        [128, 168, 163],\n        [124, 165, 158],\n        ...,\n        [180, 212, 255],\n        [181, 213, 255],\n        [181, 213, 255]],\n\n       ...,\n\n       [[ 74, 109, 112],\n        [ 71, 106, 109],\n        [ 68, 103, 106],\n        ...,\n        [ 72, 132, 191],\n        [ 72, 132, 191],\n        [ 72, 132, 191]],\n\n       [[ 77, 110, 113],\n        [ 75, 108, 111],\n        [ 72, 105, 108],\n        ...,\n        [ 69, 133, 191],\n        [ 69, 133, 191],\n        [ 69, 133, 191]],\n\n       [[ 78, 111, 114],\n        [ 76, 109, 112],\n        [ 73, 106, 109],\n        ...,\n        [ 67, 134, 191],\n        [ 67, 134, 191],\n        [ 67, 134, 191]]], dtype=uint8)",
+                "quality": null,
+                "max_size": null
+            },
+            "start_time": 1697899310.8177526,
+            "ret": {
+                "screen": "1697899310817.jpg",
+                "resolution": [
+                    3040,
+                    1440
+                ]
+            },
+            "end_time": 1697899311.465738
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 2,
+        "time": 1697899311.4777882,
+        "data": {
+            "name": "loop_find",
+            "call_args": {
+                "query": {
+                    "filename": "../images/Android/farmVille3Image.png",
+                    "_filepath": "D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/farmVille3Image.png",
+                    "threshold": 0.7,
+                    "target_pos": 5,
+                    "record_pos": null,
+                    "resolution": [],
+                    "rgb": false,
+                    "scale_max": 800,
+                    "scale_step": 0.005,
+                    "__class__": "Template"
+                },
+                "timeout": 3,
+                "threshold": null,
+                "interval": 0.5,
+                "intervalfunc": null
+            },
+            "start_time": 1697899292.8218257,
+            "ret": [
+                1729,
+                605
+            ],
+            "end_time": 1697899311.4777882
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 1,
+        "time": 1697899311.482766,
+        "data": {
+            "name": "exists",
+            "call_args": {
+                "v": {
+                    "filename": "../images/Android/farmVille3Image.png",
+                    "_filepath": "D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/farmVille3Image.png",
+                    "threshold": 0.7,
+                    "target_pos": 5,
+                    "record_pos": null,
+                    "resolution": [],
+                    "rgb": false,
+                    "scale_max": 800,
+                    "scale_step": 0.005,
+                    "__class__": "Template"
+                }
+            },
+            "start_time": 1697899292.8218257,
+            "ret": [
+                1729,
+                605
+            ],
+            "end_time": 1697899311.482766
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 2,
+        "time": 1697899336.291071,
+        "data": {
+            "name": "try_log_screen",
+            "call_args": {
+                "screen": "array([[[133, 174, 167],\n        [129, 170, 163],\n        [126, 167, 160],\n        ...,\n        [180, 212, 255],\n        [181, 213, 255],\n        [181, 213, 255]],\n\n       [[132, 173, 166],\n        [129, 170, 163],\n        [125, 166, 159],\n        ...,\n        [180, 212, 255],\n        [181, 213, 255],\n        [181, 213, 255]],\n\n       [[132, 172, 167],\n        [128, 168, 163],\n        [124, 165, 158],\n        ...,\n        [180, 212, 255],\n        [181, 213, 255],\n        [181, 213, 255]],\n\n       ...,\n\n       [[ 74, 109, 112],\n        [ 71, 106, 109],\n        [ 68, 103, 106],\n        ...,\n        [ 72, 132, 191],\n        [ 72, 132, 191],\n        [ 72, 132, 191]],\n\n       [[ 77, 110, 113],\n        [ 75, 108, 111],\n        [ 72, 105, 108],\n        ...,\n        [ 69, 133, 191],\n        [ 69, 133, 191],\n        [ 69, 133, 191]],\n\n       [[ 78, 111, 114],\n        [ 76, 109, 112],\n        [ 73, 106, 109],\n        ...,\n        [ 67, 134, 191],\n        [ 67, 134, 191],\n        [ 67, 134, 191]]], dtype=uint8)",
+                "quality": 10,
+                "max_size": null
+            },
+            "start_time": 1697899336.1579976,
+            "ret": {
+                "screen": "1697899336159.jpg",
+                "resolution": [
+                    3040,
+                    1440
+                ]
+            },
+            "end_time": 1697899336.291071
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 1,
+        "time": 1697899336.2979922,
+        "data": {
+            "name": "snapshot",
+            "call_args": {
+                "filename": "D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23/Report/Oct_21_2023_08_06_52_PM/Report_Oct_21_2023_08_11_16_PM/screenshots/TC000_1697899311.483747.png",
+                "msg": "test",
+                "quality": null,
+                "max_size": null
+            },
+            "start_time": 1697899311.483748,
+            "ret": {
+                "screen": "1697899336159.jpg",
+                "resolution": [
+                    3040,
+                    1440
+                ]
+            },
+            "end_time": 1697899336.2969937
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 2,
+        "time": 1697899363.64676,
+        "data": {
+            "name": "try_log_screen",
+            "call_args": {
+                "screen": "array([[[ 85,  93, 116],\n        [ 88,  96, 119],\n        [ 85,  92, 112],\n        ...,\n        [ 40, 106,  87],\n        [ 36, 107,  87],\n        [ 35, 107,  87]],\n\n       [[ 84,  92, 115],\n        [ 84,  92, 115],\n        [ 79,  86, 106],\n        ...,\n        [ 40, 106,  87],\n        [ 36, 107,  87],\n        [ 35, 107,  87]],\n\n       [[ 83,  92, 112],\n        [ 78,  87, 107],\n        [ 70,  77,  97],\n        ...,\n        [ 40, 106,  87],\n        [ 36, 107,  87],\n        [ 35, 107,  87]],\n\n       ...,\n\n       [[ 58, 144, 198],\n        [ 58, 144, 198],\n        [ 58, 144, 198],\n        ...,\n        [  5, 161, 127],\n        [  5, 161, 127],\n        [  5, 161, 127]],\n\n       [[ 58, 144, 198],\n        [ 58, 144, 198],\n        [ 58, 144, 198],\n        ...,\n        [  7, 160, 127],\n        [  7, 160, 127],\n        [  7, 160, 127]],\n\n       [[ 58, 144, 198],\n        [ 58, 144, 198],\n        [ 58, 144, 198],\n        ...,\n        [  9, 160, 127],\n        [  9, 160, 127],\n        [  9, 160, 127]]], dtype=uint8)",
+                "quality": 10,
+                "max_size": null
+            },
+            "start_time": 1697899363.4287977,
+            "ret": {
+                "screen": "1697899363429.jpg",
+                "resolution": [
+                    3040,
+                    1440
+                ]
+            },
+            "end_time": 1697899363.64676
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 1,
+        "time": 1697899363.6597674,
+        "data": {
+            "name": "snapshot",
+            "call_args": {
+                "filename": "D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23/Report/Oct_21_2023_08_06_52_PM/Report_Oct_21_2023_08_11_16_PM/screenshots/TC000_1697899343.31544.png",
+                "msg": "test",
+                "quality": null,
+                "max_size": null
+            },
+            "start_time": 1697899343.3154404,
+            "ret": {
+                "screen": "1697899363429.jpg",
+                "resolution": [
+                    3040,
+                    1440
+                ]
+            },
+            "end_time": 1697899363.6597674
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 1,
+        "time": 1697899381.683212,
+        "data": {
+            "name": "sleep",
+            "call_args": {
+                "secs": 10
+            },
+            "start_time": 1697899371.6778188,
+            "ret": null,
+            "end_time": 1697899381.683212
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 3,
+        "time": 1697899390.6127777,
+        "data": {
+            "name": "_cv_match",
+            "call_args": {
+                "self": {
+                    "filename": "../images/Android/skyRaceCloseButton.png",
+                    "_filepath": "D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/skyRaceCloseButton.png",
+                    "threshold": 0.7,
+                    "target_pos": 5,
+                    "record_pos": null,
+                    "resolution": [],
+                    "rgb": false,
+                    "scale_max": 800,
+                    "scale_step": 0.005,
+                    "__class__": "Template"
+                },
+                "screen": "array([[[103, 102, 142],\n        [106, 106, 142],\n        [103, 103, 133],\n        ...,\n        [ 47, 138, 112],\n        [ 46, 139, 112],\n        [ 46, 139, 112]],\n\n       [[102, 101, 141],\n        [102, 102, 138],\n        [ 97,  98, 126],\n        ...,\n        [ 47, 138, 112],\n        [ 46, 139, 112],\n        [ 46, 139, 112]],\n\n       [[101, 100, 139],\n        [ 96,  97, 131],\n        [ 87,  88, 116],\n        ...,\n        [ 47, 138, 112],\n        [ 47, 138, 112],\n        [ 47, 138, 112]],\n\n       ...,\n\n       [[ 12,  82,  75],\n        [  7,  80,  78],\n        [  3,  82,  91],\n        ...,\n        [  3, 197, 154],\n        [  3, 197, 154],\n        [  4, 197, 154]],\n\n       [[ 17,  83,  71],\n        [ 12,  82,  75],\n        [  2,  79,  82],\n        ...,\n        [  4, 197, 154],\n        [  6, 197, 154],\n        [  6, 197, 154]],\n\n       [[ 17,  82,  66],\n        [ 17,  86,  75],\n        [  9,  83,  85],\n        ...,\n        [  4, 197, 154],\n        [  8, 196, 154],\n        [  8, 196, 154]]], dtype=uint8)"
+            },
+            "start_time": 1697899382.1467361,
+            "ret": null,
+            "end_time": 1697899390.6127777
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 3,
+        "time": 1697899401.9077494,
+        "data": {
+            "name": "_cv_match",
+            "call_args": {
+                "self": {
+                    "filename": "../images/Android/skyRaceCloseButton.png",
+                    "_filepath": "D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/skyRaceCloseButton.png",
+                    "threshold": 0.7,
+                    "target_pos": 5,
+                    "record_pos": null,
+                    "resolution": [],
+                    "rgb": false,
+                    "scale_max": 800,
+                    "scale_step": 0.005,
+                    "__class__": "Template"
+                },
+                "screen": "array([[[102,  98, 140],\n        [105, 102, 141],\n        [102, 100, 129],\n        ...,\n        [ 56, 153, 127],\n        [ 56, 153, 127],\n        [ 56, 153, 127]],\n\n       [[101,  97, 139],\n        [101,  99, 135],\n        [ 96,  94, 123],\n        ...,\n        [ 56, 153, 127],\n        [ 56, 153, 127],\n        [ 56, 153, 127]],\n\n       [[100,  96, 137],\n        [ 95,  93, 129],\n        [ 86,  84, 113],\n        ...,\n        [ 58, 152, 127],\n        [ 58, 152, 127],\n        [ 58, 152, 127]],\n\n       ...,\n\n       [[ 14, 119, 110],\n        [ 19, 121, 109],\n        [ 22, 115, 100],\n        ...,\n        [  3, 202, 158],\n        [  3, 202, 158],\n        [  3, 202, 158]],\n\n       [[  7, 117, 111],\n        [ 15, 122, 113],\n        [ 24, 119, 104],\n        ...,\n        [  5, 202, 158],\n        [  5, 202, 158],\n        [  5, 202, 158]],\n\n       [[ 10, 123, 119],\n        [ 18, 127, 119],\n        [ 23, 121, 105],\n        ...,\n        [  7, 201, 158],\n        [  7, 201, 158],\n        [  7, 201, 158]]], dtype=uint8)"
+            },
+            "start_time": 1697899391.5047827,
+            "ret": null,
+            "end_time": 1697899401.9077494
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 3,
+        "time": 1697899408.1139107,
+        "data": {
+            "name": "_cv_match",
+            "call_args": {
+                "self": {
+                    "filename": "../images/Android/skyRaceCloseButton.png",
+                    "_filepath": "D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/skyRaceCloseButton.png",
+                    "threshold": 0.7,
+                    "target_pos": 5,
+                    "record_pos": null,
+                    "resolution": [],
+                    "rgb": false,
+                    "scale_max": 800,
+                    "scale_step": 0.005,
+                    "__class__": "Template"
+                },
+                "screen": "array([[[102,  98, 140],\n        [105, 102, 141],\n        [102, 100, 129],\n        ...,\n        [ 51, 138, 112],\n        [ 49, 138, 112],\n        [ 47, 138, 112]],\n\n       [[101,  97, 139],\n        [101,  99, 135],\n        [ 96,  94, 123],\n        ...,\n        [ 51, 138, 112],\n        [ 49, 138, 112],\n        [ 47, 138, 112]],\n\n       [[100,  96, 137],\n        [ 95,  93, 129],\n        [ 86,  84, 113],\n        ...,\n        [ 51, 138, 112],\n        [ 49, 138, 112],\n        [ 49, 138, 112]],\n\n       ...,\n\n       [[  0,  81,  92],\n        [ 33, 127, 146],\n        [ 78, 175, 208],\n        ...,\n        [  5, 208, 165],\n        [  5, 208, 165],\n        [  7, 208, 165]],\n\n       [[  0,  81,  85],\n        [ 20, 112, 123],\n        [ 57, 151, 180],\n        ...,\n        [  7, 208, 165],\n        [  9, 207, 165],\n        [  9, 207, 165]],\n\n       [[  0,  88,  88],\n        [ 12, 103, 110],\n        [ 38, 131, 157],\n        ...,\n        [  7, 208, 165],\n        [ 11, 207, 165],\n        [ 11, 207, 165]]], dtype=uint8)"
+            },
+            "start_time": 1697899402.7917547,
+            "ret": null,
+            "end_time": 1697899408.1139107
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 3,
+        "time": 1697899417.564739,
+        "data": {
+            "name": "_cv_match",
+            "call_args": {
+                "self": {
+                    "filename": "../images/Android/skyRaceCloseButton.png",
+                    "_filepath": "D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/skyRaceCloseButton.png",
+                    "threshold": 0.7,
+                    "target_pos": 5,
+                    "record_pos": null,
+                    "resolution": [],
+                    "rgb": false,
+                    "scale_max": 800,
+                    "scale_step": 0.005,
+                    "__class__": "Template"
+                },
+                "screen": "array([[[101, 107, 148],\n        [105, 113, 150],\n        [101, 109, 138],\n        ...,\n        [ 51, 150, 124],\n        [ 49, 150, 124],\n        [ 49, 150, 124]],\n\n       [[100, 106, 147],\n        [100, 108, 145],\n        [ 95, 103, 132],\n        ...,\n        [ 51, 150, 124],\n        [ 51, 150, 124],\n        [ 49, 150, 124]],\n\n       [[101, 106, 145],\n        [ 96, 102, 137],\n        [ 87,  93, 122],\n        ...,\n        [ 51, 150, 124],\n        [ 51, 150, 124],\n        [ 51, 150, 124]],\n\n       ...,\n\n       [[ 75, 186, 255],\n        [ 75, 186, 255],\n        [ 75, 186, 255],\n        ...,\n        [  3, 197, 154],\n        [  3, 197, 154],\n        [  4, 197, 154]],\n\n       [[ 75, 186, 255],\n        [ 75, 186, 255],\n        [ 75, 186, 255],\n        ...,\n        [  4, 197, 154],\n        [  6, 197, 154],\n        [  6, 197, 154]],\n\n       [[ 75, 186, 255],\n        [ 75, 186, 255],\n        [ 75, 186, 255],\n        ...,\n        [  4, 197, 154],\n        [  8, 196, 154],\n        [  8, 196, 154]]], dtype=uint8)"
+            },
+            "start_time": 1697899408.9320946,
+            "ret": null,
+            "end_time": 1697899417.564739
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 3,
+        "time": 1697899417.7447338,
+        "data": {
+            "name": "try_log_screen",
+            "call_args": {
+                "screen": "array([[[101, 107, 148],\n        [105, 113, 150],\n        [101, 109, 138],\n        ...,\n        [ 51, 150, 124],\n        [ 49, 150, 124],\n        [ 49, 150, 124]],\n\n       [[100, 106, 147],\n        [100, 108, 145],\n        [ 95, 103, 132],\n        ...,\n        [ 51, 150, 124],\n        [ 51, 150, 124],\n        [ 49, 150, 124]],\n\n       [[101, 106, 145],\n        [ 96, 102, 137],\n        [ 87,  93, 122],\n        ...,\n        [ 51, 150, 124],\n        [ 51, 150, 124],\n        [ 51, 150, 124]],\n\n       ...,\n\n       [[ 75, 186, 255],\n        [ 75, 186, 255],\n        [ 75, 186, 255],\n        ...,\n        [  3, 197, 154],\n        [  3, 197, 154],\n        [  4, 197, 154]],\n\n       [[ 75, 186, 255],\n        [ 75, 186, 255],\n        [ 75, 186, 255],\n        ...,\n        [  4, 197, 154],\n        [  6, 197, 154],\n        [  6, 197, 154]],\n\n       [[ 75, 186, 255],\n        [ 75, 186, 255],\n        [ 75, 186, 255],\n        ...,\n        [  4, 197, 154],\n        [  8, 196, 154],\n        [  8, 196, 154]]], dtype=uint8)",
+                "quality": null,
+                "max_size": null
+            },
+            "start_time": 1697899417.5757468,
+            "ret": {
+                "screen": "1697899417575.jpg",
+                "resolution": [
+                    3040,
+                    1440
+                ]
+            },
+            "end_time": 1697899417.7447338
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 2,
+        "time": 1697899417.7487342,
+        "data": {
+            "name": "loop_find",
+            "call_args": {
+                "query": {
+                    "filename": "../images/Android/skyRaceCloseButton.png",
+                    "_filepath": "D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/skyRaceCloseButton.png",
+                    "threshold": 0.7,
+                    "target_pos": 5,
+                    "record_pos": null,
+                    "resolution": [],
+                    "rgb": false,
+                    "scale_max": 800,
+                    "scale_step": 0.005,
+                    "__class__": "Template"
+                },
+                "timeout": 30,
+                "interval": 0.5,
+                "intervalfunc": null,
+                "threshold": null
+            },
+            "start_time": 1697899381.695218,
+            "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Indium Software\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\airtest\\utils\\logwraper.py\", line 131, in wrapper\n    res = f(*args, **kwargs)\n  File \"C:\\Users\\Indium Software\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\airtest\\core\\cv.py\", line 80, in loop_find\n    raise TargetNotFoundError('Picture %s not found in screen' % query)\nairtest.core.error.TargetNotFoundError: 'Picture Template(D:\\\\Data\\\\Official\\\\Report_UI_modificaton\\\\GameReport\\\\iGafe FV3_pass_fail_12_10_23\\\\iGafe\\\\base\\\\../images/Android/skyRaceCloseButton.png) not found in screen'\n",
+            "end_time": 1697899417.7487342
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 1,
+        "time": 1697899417.7607384,
+        "data": {
+            "name": "wait",
+            "call_args": {
+                "v": {
+                    "filename": "../images/Android/skyRaceCloseButton.png",
+                    "_filepath": "D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/skyRaceCloseButton.png",
+                    "threshold": 0.7,
+                    "target_pos": 5,
+                    "record_pos": null,
+                    "resolution": [],
+                    "rgb": false,
+                    "scale_max": 800,
+                    "scale_step": 0.005,
+                    "__class__": "Template"
+                },
+                "timeout": 30,
+                "interval": 0.5,
+                "intervalfunc": null
+            },
+            "start_time": 1697899381.695218,
+            "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Indium Software\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\airtest\\utils\\logwraper.py\", line 131, in wrapper\n    res = f(*args, **kwargs)\n  File \"C:\\Users\\Indium Software\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\airtest\\core\\api.py\", line 607, in wait\n    pos = loop_find(v, timeout=timeout, interval=interval, intervalfunc=intervalfunc)\n  File \"C:\\Users\\Indium Software\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\airtest\\utils\\logwraper.py\", line 131, in wrapper\n    res = f(*args, **kwargs)\n  File \"C:\\Users\\Indium Software\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\airtest\\core\\cv.py\", line 80, in loop_find\n    raise TargetNotFoundError('Picture %s not found in screen' % query)\nairtest.core.error.TargetNotFoundError: 'Picture Template(D:\\\\Data\\\\Official\\\\Report_UI_modificaton\\\\GameReport\\\\iGafe FV3_pass_fail_12_10_23\\\\iGafe\\\\base\\\\../images/Android/skyRaceCloseButton.png) not found in screen'\n",
+            "end_time": 1697899417.7607384
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 1,
+        "time": 1697899422.7639449,
+        "data": {
+            "name": "sleep",
+            "call_args": {
+                "secs": 5
+            },
+            "start_time": 1697899417.7637331,
+            "ret": null,
+            "end_time": 1697899422.7639449
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 1,
+        "time": 1697899425.765835,
+        "data": {
+            "name": "sleep",
+            "call_args": {
+                "secs": 3
+            },
+            "start_time": 1697899422.7639449,
+            "ret": null,
+            "end_time": 1697899425.765835
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 3,
+        "time": 1697899427.3818316,
+        "data": {
+            "name": "_cv_match",
+            "call_args": {
+                "self": {
+                    "filename": "../images/Android/Coins/coinsInHomeScreen.png",
+                    "_filepath": "D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/Coins/coinsInHomeScreen.png",
+                    "threshold": 0.7,
+                    "target_pos": 5,
+                    "record_pos": null,
+                    "resolution": [],
+                    "rgb": false,
+                    "scale_max": 800,
+                    "scale_step": 0.005,
+                    "__class__": "Template"
+                },
+                "screen": "array([[[109, 110, 154],\n        [112, 114, 154],\n        [109, 112, 143],\n        ...,\n        [ 55, 151, 127],\n        [ 55, 151, 127],\n        [ 55, 151, 127]],\n\n       [[107, 109, 150],\n        [107, 110, 148],\n        [102, 105, 136],\n        ...,\n        [ 55, 151, 127],\n        [ 55, 151, 127],\n        [ 55, 151, 127]],\n\n       [[104, 106, 146],\n        [100, 104, 139],\n        [ 91,  95, 124],\n        ...,\n        [ 57, 151, 127],\n        [ 55, 151, 127],\n        [ 55, 151, 127]],\n\n       ...,\n\n       [[ 76, 184, 255],\n        [ 76, 184, 255],\n        [ 76, 184, 255],\n        ...,\n        [  4, 198, 155],\n        [  4, 198, 155],\n        [  4, 198, 155]],\n\n       [[ 76, 184, 255],\n        [ 76, 184, 255],\n        [ 76, 184, 255],\n        ...,\n        [  5, 198, 155],\n        [  5, 198, 155],\n        [  5, 198, 155]],\n\n       [[ 76, 184, 255],\n        [ 76, 184, 255],\n        [ 76, 184, 255],\n        ...,\n        [  5, 198, 155],\n        [  7, 198, 155],\n        [  7, 198, 155]]], dtype=uint8)"
+            },
+            "start_time": 1697899426.2808466,
+            "ret": {
+                "result": [
+                    462,
+                    83
+                ],
+                "rectangle": [
+                    [
+                        396,
+                        18
+                    ],
+                    [
+                        396,
+                        148
+                    ],
+                    [
+                        529,
+                        148
+                    ],
+                    [
+                        529,
+                        18
+                    ]
+                ],
+                "confidence": 0.7186415195465088,
+                "time": 1.085994005203247
+            },
+            "end_time": 1697899427.3818316
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 3,
+        "time": 1697899427.5638351,
+        "data": {
+            "name": "try_log_screen",
+            "call_args": {
+                "screen": "array([[[109, 110, 154],\n        [112, 114, 154],\n        [109, 112, 143],\n        ...,\n        [ 55, 151, 127],\n        [ 55, 151, 127],\n        [ 55, 151, 127]],\n\n       [[107, 109, 150],\n        [107, 110, 148],\n        [102, 105, 136],\n        ...,\n        [ 55, 151, 127],\n        [ 55, 151, 127],\n        [ 55, 151, 127]],\n\n       [[104, 106, 146],\n        [100, 104, 139],\n        [ 91,  95, 124],\n        ...,\n        [ 57, 151, 127],\n        [ 55, 151, 127],\n        [ 55, 151, 127]],\n\n       ...,\n\n       [[ 76, 184, 255],\n        [ 76, 184, 255],\n        [ 76, 184, 255],\n        ...,\n        [  4, 198, 155],\n        [  4, 198, 155],\n        [  4, 198, 155]],\n\n       [[ 76, 184, 255],\n        [ 76, 184, 255],\n        [ 76, 184, 255],\n        ...,\n        [  5, 198, 155],\n        [  5, 198, 155],\n        [  5, 198, 155]],\n\n       [[ 76, 184, 255],\n        [ 76, 184, 255],\n        [ 76, 184, 255],\n        ...,\n        [  5, 198, 155],\n        [  7, 198, 155],\n        [  7, 198, 155]]], dtype=uint8)",
+                "quality": null,
+                "max_size": null
+            },
+            "start_time": 1697899427.3908389,
+            "ret": {
+                "screen": "1697899427390.jpg",
+                "resolution": [
+                    3040,
+                    1440
+                ]
+            },
+            "end_time": 1697899427.5638351
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 2,
+        "time": 1697899427.5778582,
+        "data": {
+            "name": "loop_find",
+            "call_args": {
+                "query": {
+                    "filename": "../images/Android/Coins/coinsInHomeScreen.png",
+                    "_filepath": "D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/Coins/coinsInHomeScreen.png",
+                    "threshold": 0.7,
+                    "target_pos": 5,
+                    "record_pos": null,
+                    "resolution": [],
+                    "rgb": false,
+                    "scale_max": 800,
+                    "scale_step": 0.005,
+                    "__class__": "Template"
+                },
+                "timeout": 3,
+                "threshold": null,
+                "interval": 0.5,
+                "intervalfunc": null
+            },
+            "start_time": 1697899425.778838,
+            "ret": [
+                462,
+                83
+            ],
+            "end_time": 1697899427.5778582
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 1,
+        "time": 1697899427.5778582,
+        "data": {
+            "name": "exists",
+            "call_args": {
+                "v": {
+                    "filename": "../images/Android/Coins/coinsInHomeScreen.png",
+                    "_filepath": "D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/Coins/coinsInHomeScreen.png",
+                    "threshold": 0.7,
+                    "target_pos": 5,
+                    "record_pos": null,
+                    "resolution": [],
+                    "rgb": false,
+                    "scale_max": 800,
+                    "scale_step": 0.005,
+                    "__class__": "Template"
+                }
+            },
+            "start_time": 1697899425.778838,
+            "ret": [
+                462,
+                83
+            ],
+            "end_time": 1697899427.5778582
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 2,
+        "time": 1697899445.7458358,
+        "data": {
+            "name": "try_log_screen",
+            "call_args": {
+                "screen": "array([[[102,  98, 140],\n        [105, 102, 141],\n        [102, 100, 129],\n        ...,\n        [ 53, 152, 126],\n        [ 51, 152, 126],\n        [ 51, 152, 126]],\n\n       [[101,  97, 139],\n        [101,  99, 135],\n        [ 96,  94, 123],\n        ...,\n        [ 53, 152, 126],\n        [ 53, 152, 126],\n        [ 51, 152, 126]],\n\n       [[100,  96, 137],\n        [ 95,  93, 129],\n        [ 86,  84, 113],\n        ...,\n        [ 53, 152, 126],\n        [ 53, 152, 126],\n        [ 53, 152, 126]],\n\n       ...,\n\n       [[ 80, 193, 255],\n        [ 80, 193, 255],\n        [ 80, 193, 255],\n        ...,\n        [  1, 199, 157],\n        [  3, 199, 157],\n        [  1, 199, 157]],\n\n       [[ 80, 193, 255],\n        [ 80, 193, 255],\n        [ 80, 193, 255],\n        ...,\n        [  3, 199, 157],\n        [  5, 199, 157],\n        [  3, 199, 157]],\n\n       [[ 80, 193, 255],\n        [ 80, 193, 255],\n        [ 80, 193, 255],\n        ...,\n        [  5, 199, 157],\n        [  5, 199, 157],\n        [  5, 199, 157]]], dtype=uint8)",
+                "quality": 10,
+                "max_size": null
+            },
+            "start_time": 1697899445.5618358,
+            "ret": {
+                "screen": "1697899445561.jpg",
+                "resolution": [
+                    3040,
+                    1440
+                ]
+            },
+            "end_time": 1697899445.7458358
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 1,
+        "time": 1697899445.7598457,
+        "data": {
+            "name": "snapshot",
+            "call_args": {
+                "filename": "D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23/Report/Oct_21_2023_08_06_52_PM/Report_Oct_21_2023_08_11_16_PM/screenshots/TC002_1697899427.578833.png",
+                "msg": "test",
+                "quality": null,
+                "max_size": null
+            },
+            "start_time": 1697899427.5788336,
+            "ret": {
+                "screen": "1697899445561.jpg",
+                "resolution": [
+                    3040,
+                    1440
+                ]
+            },
+            "end_time": 1697899445.7598457
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 3,
+        "time": 1697899454.3588078,
+        "data": {
+            "name": "_cv_match",
+            "call_args": {
+                "self": {
+                    "filename": "../images/Android/Coins/coinsInHomeScreen.png",
+                    "_filepath": "D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/Coins/coinsInHomeScreen.png",
+                    "threshold": 0.7,
+                    "target_pos": 5,
+                    "record_pos": null,
+                    "resolution": [],
+                    "rgb": false,
+                    "scale_max": 800,
+                    "scale_step": 0.005,
+                    "__class__": "Template"
+                },
+                "screen": "array([[[ 65,  86, 171],\n        [ 64,  85, 170],\n        [ 61,  83, 171],\n        ...,\n        [145, 190, 174],\n        [150, 191, 176],\n        [151, 190, 175]],\n\n       [[ 68,  88, 175],\n        [ 63,  83, 170],\n        [ 58,  80, 168],\n        ...,\n        [145, 194, 178],\n        [146, 191, 175],\n        [144, 187, 172]],\n\n       [[ 71,  90, 181],\n        [ 64,  83, 174],\n        [ 55,  76, 168],\n        ...,\n        [133, 191, 173],\n        [135, 190, 173],\n        [137, 191, 174]],\n\n       ...,\n\n       [[ 75, 186, 254],\n        [ 75, 186, 254],\n        [ 75, 186, 254],\n        ...,\n        [  1, 198, 154],\n        [  1, 198, 154],\n        [  1, 198, 154]],\n\n       [[ 75, 186, 254],\n        [ 75, 186, 254],\n        [ 75, 186, 254],\n        ...,\n        [  4, 198, 155],\n        [  4, 198, 155],\n        [  4, 198, 155]],\n\n       [[ 75, 186, 254],\n        [ 75, 186, 254],\n        [ 75, 186, 254],\n        ...,\n        [  4, 198, 155],\n        [  5, 198, 155],\n        [  5, 198, 155]]], dtype=uint8)"
+            },
+            "start_time": 1697899452.1545753,
+            "ret": {
+                "result": [
+                    462,
+                    83
+                ],
+                "rectangle": [
+                    [
+                        396,
+                        18
+                    ],
+                    [
+                        396,
+                        148
+                    ],
+                    [
+                        529,
+                        148
+                    ],
+                    [
+                        529,
+                        18
+                    ]
+                ],
+                "confidence": 0.8429017663002014,
+                "time": 2.2012312412261963
+            },
+            "end_time": 1697899454.3588078
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 3,
+        "time": 1697899454.7798116,
+        "data": {
+            "name": "try_log_screen",
+            "call_args": {
+                "screen": "array([[[ 65,  86, 171],\n        [ 64,  85, 170],\n        [ 61,  83, 171],\n        ...,\n        [145, 190, 174],\n        [150, 191, 176],\n        [151, 190, 175]],\n\n       [[ 68,  88, 175],\n        [ 63,  83, 170],\n        [ 58,  80, 168],\n        ...,\n        [145, 194, 178],\n        [146, 191, 175],\n        [144, 187, 172]],\n\n       [[ 71,  90, 181],\n        [ 64,  83, 174],\n        [ 55,  76, 168],\n        ...,\n        [133, 191, 173],\n        [135, 190, 173],\n        [137, 191, 174]],\n\n       ...,\n\n       [[ 75, 186, 254],\n        [ 75, 186, 254],\n        [ 75, 186, 254],\n        ...,\n        [  1, 198, 154],\n        [  1, 198, 154],\n        [  1, 198, 154]],\n\n       [[ 75, 186, 254],\n        [ 75, 186, 254],\n        [ 75, 186, 254],\n        ...,\n        [  4, 198, 155],\n        [  4, 198, 155],\n        [  4, 198, 155]],\n\n       [[ 75, 186, 254],\n        [ 75, 186, 254],\n        [ 75, 186, 254],\n        ...,\n        [  4, 198, 155],\n        [  5, 198, 155],\n        [  5, 198, 155]]], dtype=uint8)",
+                "quality": null,
+                "max_size": null
+            },
+            "start_time": 1697899454.3608098,
+            "ret": {
+                "screen": "1697899454360.jpg",
+                "resolution": [
+                    3040,
+                    1440
+                ]
+            },
+            "end_time": 1697899454.7798116
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 2,
+        "time": 1697899454.782813,
+        "data": {
+            "name": "loop_find",
+            "call_args": {
+                "query": {
+                    "filename": "../images/Android/Coins/coinsInHomeScreen.png",
+                    "_filepath": "D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/Coins/coinsInHomeScreen.png",
+                    "threshold": 0.7,
+                    "target_pos": 5,
+                    "record_pos": null,
+                    "resolution": [],
+                    "rgb": false,
+                    "scale_max": 800,
+                    "scale_step": 0.005,
+                    "__class__": "Template"
+                },
+                "timeout": 20,
+                "threshold": null,
+                "interval": 0.5,
+                "intervalfunc": null
+            },
+            "start_time": 1697899451.8225734,
+            "ret": [
+                462,
+                83
+            ],
+            "end_time": 1697899454.782813
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 1,
+        "time": 1697899458.2730868,
+        "data": {
+            "name": "touch",
+            "call_args": {
+                "v": {
+                    "filename": "../images/Android/Coins/coinsInHomeScreen.png",
+                    "_filepath": "D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/Coins/coinsInHomeScreen.png",
+                    "threshold": 0.7,
+                    "target_pos": 5,
+                    "record_pos": null,
+                    "resolution": [],
+                    "rgb": false,
+                    "scale_max": 800,
+                    "scale_step": 0.005,
+                    "__class__": "Template"
+                },
+                "kwargs": {
+                    "duration": 0.5
+                },
+                "times": 1
+            },
+            "start_time": 1697899451.8225734,
+            "ret": [
+                462,
+                83
+            ],
+            "end_time": 1697899458.2730868
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 3,
+        "time": 1697899464.259086,
+        "data": {
+            "name": "_cv_match",
+            "call_args": {
+                "self": {
+                    "filename": "../images/Android/XPHUD/closeXPButton.png",
+                    "_filepath": "D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/XPHUD/closeXPButton.png",
+                    "threshold": 0.7,
+                    "target_pos": 5,
+                    "record_pos": null,
+                    "resolution": [],
+                    "rgb": false,
+                    "scale_max": 800,
+                    "scale_step": 0.005,
+                    "__class__": "Template"
+                },
+                "screen": "array([[[ 63,  77, 165],\n        [ 63,  77, 165],\n        [ 61,  77, 166],\n        ...,\n        [143, 186, 173],\n        [149, 186, 176],\n        [150, 185, 175]],\n\n       [[ 67,  81, 170],\n        [ 63,  77, 166],\n        [ 58,  74, 163],\n        ...,\n        [144, 190, 177],\n        [144, 186, 175],\n        [143, 183, 172]],\n\n       [[ 70,  83, 175],\n        [ 63,  76, 168],\n        [ 55,  70, 162],\n        ...,\n        [132, 187, 172],\n        [133, 186, 172],\n        [136, 187, 173]],\n\n       ...,\n\n       [[ 75, 188, 255],\n        [ 75, 188, 255],\n        [ 75, 188, 255],\n        ...,\n        [  1, 198, 154],\n        [  1, 198, 154],\n        [  1, 198, 154]],\n\n       [[ 75, 188, 255],\n        [ 75, 188, 255],\n        [ 75, 188, 255],\n        ...,\n        [  4, 198, 155],\n        [  4, 198, 155],\n        [  4, 198, 155]],\n\n       [[ 75, 188, 255],\n        [ 75, 188, 255],\n        [ 75, 188, 255],\n        ...,\n        [  4, 198, 155],\n        [  5, 198, 155],\n        [  5, 198, 155]]], dtype=uint8)"
+            },
+            "start_time": 1697899458.695088,
+            "ret": null,
+            "end_time": 1697899464.259086
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 3,
+        "time": 1697899465.4660857,
+        "data": {
+            "name": "_cv_match",
+            "call_args": {
+                "self": {
+                    "filename": "../images/Android/XPHUD/closeXPButton.png",
+                    "_filepath": "D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/XPHUD/closeXPButton.png",
+                    "threshold": 0.7,
+                    "target_pos": 5,
+                    "record_pos": null,
+                    "resolution": [],
+                    "rgb": false,
+                    "scale_max": 800,
+                    "scale_step": 0.005,
+                    "__class__": "Template"
+                },
+                "screen": "array([[[ 43,  67, 127],\n        [ 43,  67, 127],\n        [ 43,  67, 127],\n        ...,\n        [ 43,  67, 127],\n        [ 43,  67, 127],\n        [ 43,  67, 127]],\n\n       [[ 43,  67, 127],\n        [ 43,  67, 127],\n        [ 43,  67, 127],\n        ...,\n        [ 43,  67, 127],\n        [ 43,  67, 127],\n        [ 43,  67, 127]],\n\n       [[ 43,  67, 127],\n        [ 43,  67, 127],\n        [ 43,  67, 127],\n        ...,\n        [ 43,  67, 127],\n        [ 43,  67, 127],\n        [ 43,  67, 127]],\n\n       ...,\n\n       [[ 41,  68, 125],\n        [ 41,  68, 125],\n        [ 41,  68, 125],\n        ...,\n        [ 41,  67, 127],\n        [ 41,  67, 127],\n        [ 41,  67, 127]],\n\n       [[ 41,  68, 125],\n        [ 41,  68, 125],\n        [ 41,  68, 125],\n        ...,\n        [ 41,  67, 127],\n        [ 41,  67, 127],\n        [ 41,  67, 127]],\n\n       [[ 41,  68, 125],\n        [ 41,  68, 125],\n        [ 41,  68, 125],\n        ...,\n        [ 41,  67, 127],\n        [ 41,  67, 127],\n        [ 41,  67, 127]]], dtype=uint8)"
+            },
+            "start_time": 1697899465.0810895,
+            "ret": {
+                "result": [
+                    2909,
+                    126
+                ],
+                "rectangle": [
+                    [
+                        2850,
+                        74
+                    ],
+                    [
+                        2850,
+                        178
+                    ],
+                    [
+                        2969,
+                        178
+                    ],
+                    [
+                        2969,
+                        74
+                    ]
+                ],
+                "confidence": 0.9999079704284668,
+                "time": 0.3829939365386963
+            },
+            "end_time": 1697899465.4660857
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 3,
+        "time": 1697899465.547088,
+        "data": {
+            "name": "try_log_screen",
+            "call_args": {
+                "screen": "array([[[ 43,  67, 127],\n        [ 43,  67, 127],\n        [ 43,  67, 127],\n        ...,\n        [ 43,  67, 127],\n        [ 43,  67, 127],\n        [ 43,  67, 127]],\n\n       [[ 43,  67, 127],\n        [ 43,  67, 127],\n        [ 43,  67, 127],\n        ...,\n        [ 43,  67, 127],\n        [ 43,  67, 127],\n        [ 43,  67, 127]],\n\n       [[ 43,  67, 127],\n        [ 43,  67, 127],\n        [ 43,  67, 127],\n        ...,\n        [ 43,  67, 127],\n        [ 43,  67, 127],\n        [ 43,  67, 127]],\n\n       ...,\n\n       [[ 41,  68, 125],\n        [ 41,  68, 125],\n        [ 41,  68, 125],\n        ...,\n        [ 41,  67, 127],\n        [ 41,  67, 127],\n        [ 41,  67, 127]],\n\n       [[ 41,  68, 125],\n        [ 41,  68, 125],\n        [ 41,  68, 125],\n        ...,\n        [ 41,  67, 127],\n        [ 41,  67, 127],\n        [ 41,  67, 127]],\n\n       [[ 41,  68, 125],\n        [ 41,  68, 125],\n        [ 41,  68, 125],\n        ...,\n        [ 41,  67, 127],\n        [ 41,  67, 127],\n        [ 41,  67, 127]]], dtype=uint8)",
+                "quality": null,
+                "max_size": null
+            },
+            "start_time": 1697899465.4680855,
+            "ret": {
+                "screen": "1697899465468.jpg",
+                "resolution": [
+                    3040,
+                    1440
+                ]
+            },
+            "end_time": 1697899465.547088
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 2,
+        "time": 1697899465.551087,
+        "data": {
+            "name": "loop_find",
+            "call_args": {
+                "query": {
+                    "filename": "../images/Android/XPHUD/closeXPButton.png",
+                    "_filepath": "D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/XPHUD/closeXPButton.png",
+                    "threshold": 0.7,
+                    "target_pos": 5,
+                    "record_pos": null,
+                    "resolution": [],
+                    "rgb": false,
+                    "scale_max": 800,
+                    "scale_step": 0.005,
+                    "__class__": "Template"
+                },
+                "timeout": 40,
+                "interval": 0.5,
+                "intervalfunc": null,
+                "threshold": null
+            },
+            "start_time": 1697899458.27409,
+            "ret": [
+                2909,
+                126
+            ],
+            "end_time": 1697899465.551087
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 1,
+        "time": 1697899465.552089,
+        "data": {
+            "name": "wait",
+            "call_args": {
+                "v": {
+                    "filename": "../images/Android/XPHUD/closeXPButton.png",
+                    "_filepath": "D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/XPHUD/closeXPButton.png",
+                    "threshold": 0.7,
+                    "target_pos": 5,
+                    "record_pos": null,
+                    "resolution": [],
+                    "rgb": false,
+                    "scale_max": 800,
+                    "scale_step": 0.005,
+                    "__class__": "Template"
+                },
+                "timeout": 40,
+                "interval": 0.5,
+                "intervalfunc": null
+            },
+            "start_time": 1697899458.2730868,
+            "ret": [
+                2909,
+                126
+            ],
+            "end_time": 1697899465.552089
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 3,
+        "time": 1697899466.2771852,
+        "data": {
+            "name": "_cv_match",
+            "call_args": {
+                "self": {
+                    "filename": "../images/Android/XPHUD/closeXPButton.png",
+                    "_filepath": "D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/XPHUD/closeXPButton.png",
+                    "threshold": 0.7,
+                    "target_pos": 5,
+                    "record_pos": null,
+                    "resolution": [],
+                    "rgb": false,
+                    "scale_max": 800,
+                    "scale_step": 0.005,
+                    "__class__": "Template"
+                },
+                "screen": "array([[[0, 0, 0],\n        [0, 0, 0],\n        [0, 0, 0],\n        ...,\n        [0, 0, 0],\n        [0, 0, 0],\n        [0, 0, 0]],\n\n       [[0, 0, 0],\n        [0, 0, 0],\n        [0, 0, 0],\n        ...,\n        [0, 0, 0],\n        [0, 0, 0],\n        [0, 0, 0]],\n\n       [[0, 0, 0],\n        [0, 0, 0],\n        [0, 0, 0],\n        ...,\n        [0, 0, 0],\n        [0, 0, 0],\n        [0, 0, 0]],\n\n       ...,\n\n       [[0, 0, 0],\n        [0, 0, 0],\n        [0, 0, 0],\n        ...,\n        [0, 0, 0],\n        [0, 0, 0],\n        [0, 0, 0]],\n\n       [[0, 0, 0],\n        [0, 0, 0],\n        [0, 0, 0],\n        ...,\n        [0, 0, 0],\n        [0, 0, 0],\n        [0, 0, 0]],\n\n       [[0, 0, 0],\n        [0, 0, 0],\n        [0, 0, 0],\n        ...,\n        [0, 0, 0],\n        [0, 0, 0],\n        [0, 0, 0]]], dtype=uint8)"
+            },
+            "start_time": 1697899465.878611,
+            "ret": {
+                "result": [
+                    2909,
+                    126
+                ],
+                "rectangle": [
+                    [
+                        2850,
+                        74
+                    ],
+                    [
+                        2850,
+                        178
+                    ],
+                    [
+                        2969,
+                        178
+                    ],
+                    [
+                        2969,
+                        74
+                    ]
+                ],
+                "confidence": 0.9999091029167175,
+                "time": 0.3955714702606201
+            },
+            "end_time": 1697899466.2771852
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 3,
+        "time": 1697899466.3571827,
+        "data": {
+            "name": "try_log_screen",
+            "call_args": {
+                "screen": "array([[[0, 0, 0],\n        [0, 0, 0],\n        [0, 0, 0],\n        ...,\n        [0, 0, 0],\n        [0, 0, 0],\n        [0, 0, 0]],\n\n       [[0, 0, 0],\n        [0, 0, 0],\n        [0, 0, 0],\n        ...,\n        [0, 0, 0],\n        [0, 0, 0],\n        [0, 0, 0]],\n\n       [[0, 0, 0],\n        [0, 0, 0],\n        [0, 0, 0],\n        ...,\n        [0, 0, 0],\n        [0, 0, 0],\n        [0, 0, 0]],\n\n       ...,\n\n       [[0, 0, 0],\n        [0, 0, 0],\n        [0, 0, 0],\n        ...,\n        [0, 0, 0],\n        [0, 0, 0],\n        [0, 0, 0]],\n\n       [[0, 0, 0],\n        [0, 0, 0],\n        [0, 0, 0],\n        ...,\n        [0, 0, 0],\n        [0, 0, 0],\n        [0, 0, 0]],\n\n       [[0, 0, 0],\n        [0, 0, 0],\n        [0, 0, 0],\n        ...,\n        [0, 0, 0],\n        [0, 0, 0],\n        [0, 0, 0]]], dtype=uint8)",
+                "quality": null,
+                "max_size": null
+            },
+            "start_time": 1697899466.2791848,
+            "ret": {
+                "screen": "1697899466279.jpg",
+                "resolution": [
+                    3040,
+                    1440
+                ]
+            },
+            "end_time": 1697899466.3571827
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 2,
+        "time": 1697899466.3601816,
+        "data": {
+            "name": "loop_find",
+            "call_args": {
+                "query": {
+                    "filename": "../images/Android/XPHUD/closeXPButton.png",
+                    "_filepath": "D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/XPHUD/closeXPButton.png",
+                    "threshold": 0.7,
+                    "target_pos": 5,
+                    "record_pos": null,
+                    "resolution": [],
+                    "rgb": false,
+                    "scale_max": 800,
+                    "scale_step": 0.005,
+                    "__class__": "Template"
+                },
+                "timeout": 20,
+                "threshold": null,
+                "interval": 0.5,
+                "intervalfunc": null
+            },
+            "start_time": 1697899465.552089,
+            "ret": [
+                2909,
+                126
+            ],
+            "end_time": 1697899466.3601816
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 1,
+        "time": 1697899467.0721905,
+        "data": {
+            "name": "touch",
+            "call_args": {
+                "v": {
+                    "filename": "../images/Android/XPHUD/closeXPButton.png",
+                    "_filepath": "D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/XPHUD/closeXPButton.png",
+                    "threshold": 0.7,
+                    "target_pos": 5,
+                    "record_pos": null,
+                    "resolution": [],
+                    "rgb": false,
+                    "scale_max": 800,
+                    "scale_step": 0.005,
+                    "__class__": "Template"
+                },
+                "kwargs": {
+                    "duration": 0.5
+                },
+                "times": 1
+            },
+            "start_time": 1697899465.552089,
+            "ret": [
+                2909,
+                126
+            ],
+            "end_time": 1697899467.0721905
+        }
+    },
+    {
+        "tag": "function",
+        "depth": 1,
+        "time": 1697899467.7451854,
+        "data": {
+            "name": "stop_app",
+            "call_args": {
+                "package": "com.zynga.farmville3"
+            },
+            "start_time": 1697899467.0721905,
+            "ret": null,
+            "end_time": 1697899467.7451854
+        }
+    }
+]

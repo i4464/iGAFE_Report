@@ -1,0 +1,198 @@
+<html>
+                           <link rel='stylesheet' type='text/css' href='./Extras/styleCopy.css'>
+                           <link rel='stylesheet' id='themeStylesheetLink' type='text/css' href='./Extras/themes/forest.css'>
+                               <script>
+                                   window.onload = function() {
+                                       var thunderGif = document.getElementById("thunder_gif");
+                                       var screenWidth = window.innerWidth;
+                                       var screenHeight = window.innerHeight;
+                                       setInterval(function() {
+                                           var randomX = Math.floor(Math.random() * screenWidth);
+    
+                                           thunderGif.style.left = randomX + "px";
+    
+                                       }, 500);
+                                   }
+                               </script>
+    
+                           <title>HTML REPORTING</title>
+                           <body >          
+    
+                                <img id="bg" src="Logos/backgroundImg.png" style="position: fixed; top:85px; background-image: url('Logos/backgroundImg.png'); background-repeat: no-repeat; background-size: 100.5%; width:100%; height:100%; z-index:-2">
+                               <div id='headerDiv' style='z-index: 10;'>
+                                   <div id='header' >
+                                       <img src='Logos/Indium-Software-Logo.png' class='indiumLogoNew' width=auto height='75' /> <img src='Logos/client_logo.png' class='clientLogoNew' width=auto height='75' />
+                                       <h1 style='color:white; '>iGAFE - Game Automation Report</h1>
+                                   </div>
+                               </div>
+                               <div id="sun">
+            <div class="cloud c1"></div>
+            <div class="cloud c2"></div>
+    
+           <div class='bg-container'>
+                <div class='bubbles'>
+                    <span style="--i:11;"></span>
+                    <span style="--i:12;"></span>
+                    <span style="--i:16;"></span>
+                    <span style="--i:20;"></span>
+        `       </div>
+            </div>
+        </div>
+    
+        <div id='bird' class='birds-container'>
+            <div class="bird-container bird-container--one">
+            <div class="bird bird--one"></div>
+            </div>
+    
+            <div class="bird-container bird-container--two">
+                <div class="bird bird--two"></div>
+            </div>
+    
+            <div class="bird-container bird-container--three">
+                <div class="bird bird--three"></div>
+            </div>
+    
+            <div class="bird-container bird-container--four">
+                <div class="bird bird--four"></div>
+            </div>
+        </div>
+                               <div class='container'>
+                               <div id='ddb' style='width:50%;'>
+                                   <p class='ddb'><strong>Date:</strong> 21-10-2023
+                                   &ensp;&ensp;&ensp;&ensp;&ensp;
+                                   <strong>Platform:</strong> Android
+                                   &ensp;&ensp;&ensp;&ensp;&ensp;
+			                        <strong>Game: </strong>Farm Ville 3 
+                                   </p>
+                               </div>
+                               <hr width='65%' color='#024073' style=' width: 60%; margin-top: 2%; height:0.4px; background-color: #e5e5e5; border: none;'>
+    
+                               <nav class="accordion arrows">
+                                   <header class="box ">
+                                        <label for="acc-close" class="box-title">Execution Summary - &ensp;&ensp;&ensp; Executed: <span style='color:white;' id='totalExe'></span>
+                                        &ensp;&ensp; Passed: <span style='color:white;' id='totalPass'></span>
+                                         &ensp;&ensp; Failed: <span style='color:white;' id='totalFail'></span>
+                                          &ensp;&ensp; Duration: <span style='color:white;' id='totalDuration'></span>
+                                          </label>
+                                   </header>
+                                   <div class="body_container">
+                  <table class="body_table">
+                    <thead >
+                      <tr >
+                        <th style='text-align: left;'>Machine name</th>
+                        <th>Executed</th>
+                        <th>Passed</th>
+                        <th>Failed</th>
+                        <th>Duration</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                                     <tr class='failedTitle'>
+                                  <td ><a style='color:blue;' href="Report_Oct_21_2023_08_06_55_PM/Android_Report.html">Rule The Realm</a></td>  
+                                            <td>1</td>
+                                            <td style='color: green;'>0</td>
+                                            <td style='color:red;' >1</td>
+                                            <td>01 min 23 sec</td>
+                                          </tr>
+                                      
+                                      <tr class='failedTitle'>
+                                  <td ><a style='color:blue;' href="Report_Oct_21_2023_08_08_23_PM/Android_Report.html">Mother Of Dragons</a></td>  
+                                            <td>2</td>
+                                            <td style='color: green;'>1</td>
+                                            <td style='color:red;' >1</td>
+                                            <td>02 min 38 sec</td>
+                                          </tr>
+                                        <tr class='failedTitle'>
+                                  <td ><a style='color:blue;' href="Report_Oct_21_2023_08_11_16_PM/Android_Report.html">The Young Wolf</a></td>  
+                                            <td>2</td>
+                                            <td style='color: green;'>1</td>
+                                            <td style='color:red;' >1</td>
+                                            <td>03 min 10 sec</td>
+                                          </tr>
+                                      <tr style="display:none;"><td>PlaceHolder</td></tr>
+                                    </tbody>
+                          </table>
+                        </div>
+                                   <input type="radio" name="accordion" id="acc-close" />
+                               </nav>
+                               </div>
+    
+                               <div  class='dragon_container'>
+                                   <img class="dragon" src="Logos/dragon.gif">
+                                 </div>
+    
+    
+                           </body>
+                           <script type='text/javascript' src='./Extras/canvasjs.min.js'></script>
+                           <script>
+   
+                                function calculateColumnSum(columnIndex) {
+                                    var table = document.querySelector("table.body_table"); // Replace with your table selector
+                        
+                                    if (table) {
+                                        var rows = table.querySelectorAll("tbody tr");
+                                        var sum = 0;
+                        
+                                        for (var i = 0; i < rows.length; i++) {
+                                            var cells = rows[i].querySelectorAll("td");
+                                            if (columnIndex >= 0 && columnIndex < cells.length) {
+                                                var cellValue = parseFloat(cells[columnIndex].textContent);
+                                                if (!isNaN(cellValue)) {
+                                                    sum += cellValue;
+                                                }
+                                            }
+                                        }
+                        
+                                        return sum;
+                                    } else {
+                                        return "Table not found";
+                                    }
+                                }
+                                
+                                function addDurationsFromColumn(columnIndex) {
+                                        let totalMinutes = 0;
+                                        let totalSeconds = 0;
+                        
+                                        const table = document.querySelector("table.body_table"); // Replace with your table selector
+                        
+                                        if (!table) {
+                                            return "Table not found";
+                                        }
+                        
+                                        const rows = table.querySelectorAll("tbody tr");
+                        
+                                        for (let i = 0; i < rows.length; i++) {
+                                            const cells = rows[i].querySelectorAll("td");
+                                            
+                                            if (columnIndex >= 0 && columnIndex < cells.length) {
+                                                const cellValue = cells[columnIndex].textContent;
+                                                const durationMatches = cellValue.match(/(\d+) min (\d+) sec/);
+                        
+                                                if (durationMatches && durationMatches.length === 3) {
+                                                    const minutes = parseInt(durationMatches[1]);
+                                                    const seconds = parseInt(durationMatches[2]);
+                        
+                                                    if (!isNaN(minutes) && !isNaN(seconds)) {
+                                                        totalMinutes += minutes;
+                                                        totalSeconds += seconds;
+                                                    }
+                                                }
+                                            }
+                                        }
+                        
+                                        // Convert extra seconds to minutes
+                                        totalMinutes += Math.floor(totalSeconds / 60);
+                                        totalSeconds %= 60;
+                        
+                                        return totalMinutes + " min " + totalSeconds + " sec";
+                                    }
+                                    
+                                    document.getElementById('totalExe').textContent = calculateColumnSum(1);
+                                    document.getElementById('totalPass').textContent = calculateColumnSum(2);
+                                    document.getElementById('totalFail').textContent = calculateColumnSum(3);
+                                    document.getElementById('totalDuration').textContent = addDurationsFromColumn(4);
+                                
+                        
+                           </script>
+    
+                           </html>

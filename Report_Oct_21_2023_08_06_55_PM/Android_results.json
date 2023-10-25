@@ -1,0 +1,47 @@
+{
+    "Tests": [
+        {
+            "ID": "TC000",
+            "Description": "Game Launch and Game Board HUD - Validate HUD in the main Homescreen",
+            "Status": "Fail",
+            "Steps": [
+                {
+                    "Description": "Application Launched successfully",
+                    "Status": "Info",
+                    "ScreenshotPath": ""
+                },
+                {
+                    "Description": "Validate visual style and design of the \"FarmVille3 Logo\" is displayed without any errors.",
+                    "Status": "Pass",
+                    "ScreenshotPath": "screenshots/TC000_1697899037.225996.png"
+                },
+                {
+                    "Description": "Fail for demo purpose",
+                    "Status": "Fail",
+                    "ScreenshotPath": "screenshots/TC000_1697899051.689523.png"
+                },
+                {
+                    "Description": "Should be validated manualy: Validate visual style and design of the \"Close Button\"",
+                    "Status": "Manual Verification",
+                    "ScreenshotPath": "screenshots/TC000_1697899076.711523.png"
+                },
+                {
+                    "Description": "Tap: Close button for Sky Race.",
+                    "Status": "Pass",
+                    "ScreenshotPath": ""
+                }
+            ]
+        }
+    ],
+    "Total_TC_Count": 1,
+    "Passed_TC_Count": 0,
+    "Failed_TC_Count": 1,
+    "Game": "Farm Ville 3",
+    "StartTime": "2023-10-21 20:06:55.455683",
+    "EndTime": "2023-10-21 20:08:19.014570",
+    "Duration": "01 min 23 sec",
+    "Platform": "Android",
+    "Machine": [
+        "Rule the Realm"
+    ]
+}

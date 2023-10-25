@@ -1,0 +1,293 @@
+<html>
+
+                <link rel='stylesheet' type='text/css' href='./Extras/styleCopy.css'>
+                <link rel='stylesheet' id='themeStylesheetLink' type='text/css' href='./Extras/themes/forest.css'>
+                	<script>
+                        window.onload = function() {
+                            var thunderGif = document.getElementById("thunder_gif");
+                            var screenWidth = window.innerWidth;
+                            var screenHeight = window.innerHeight;
+                            setInterval(function() {
+                                var randomX = Math.floor(Math.random() * screenWidth);
+                
+                                thunderGif.style.left = randomX + "px";
+                
+                            }, 500);
+                        }
+	                </script>
+
+                <title>HTML REPORTING</title>
+                <body >          
+                    <img id="bg" src="Logos/backgroundImg.png" style="position: fixed; top:85px; background-image: url('Logos/backgroundImg.png'); background-repeat: no-repeat; background-size: 100.5%; width:100%; height:100%; z-index:-2">
+
+                    <div id='headerDiv' style='z-index: 10;'>
+                        <div id='header' >
+                            <img src='Logos/Indium-Software-Logo.png' class='indiumLogoNew' width=auto height='75' /> <img src='Logos/client_logo.png' class='clientLogoNew' width=auto height='75' />
+                            <h1 style='color:white; '>iGAFE - Game Automation Report</h1>
+                        </div>
+                    </div>
+                    <div id='buttonsar'>
+                                <a class='btn btn_dash' href='../Report.html'>Dashboard</a>
+                    </div>
+                    
+                    <div id="sun">
+        <div class="cloud c1"></div>
+        <div class="cloud c2"></div>
+
+       <div class='bg-container'>
+            <div class='bubbles'>
+                <span style="--i:11;"></span>
+                <span style="--i:12;"></span>
+                <span style="--i:16;"></span>
+                <span style="--i:20;"></span>
+    `       </div>
+        </div>
+    </div>
+      
+    <div id='bird' class='birds-container'>
+        <div class="bird-container bird-container--one">
+        <div class="bird bird--one"></div>
+        </div>
+        
+        <div class="bird-container bird-container--two">
+            <div class="bird bird--two"></div>
+        </div>
+        
+        <div class="bird-container bird-container--three">
+            <div class="bird bird--three"></div>
+        </div>
+        
+        <div class="bird-container bird-container--four">
+            <div class="bird bird--four"></div>
+        </div>
+    </div>
+                    <div class='container'>
+                    <div id='ddb'>
+                        <p class='ddb'><strong>Date:</strong> 21-10-2023
+                        &ensp;&ensp;&ensp;&ensp;&ensp;<span><strong>Game: </strong> Farm Ville 3 </span>
+                        <span><strong>Duration:</strong> 01 min 23 sec </span></p>
+                    </div>
+                    <hr width='65%' color='#024073' style=' width: 60%; margin-top: 2%; height:0.4px; background-color: #e5e5e5; border: none;'>
+                    <div style='margin: 0 auto; padding:15px; background-color: rgba(0, 0, 0, 0.5); text-align: right;  border-radius: 15px 15px 0px 0px;'>
+                        <div class="checkbox-wrapper" style='position: relative; ' >
+                           <table style='font-size: 16pt; '>
+                              <tr>
+                                    <td style="color:white; font-weight:bold;">Rule the Realm&ensp;-&ensp;</td>
+                                 <td  style='padding-left: 5; padding-right: 5;'>
+                                    <input type="checkbox" id="manualFlag" name="manualFlag" />
+                                    <label for="manualFlag">
+                                       <div class="tick_mark"></div>
+                                    </label>
+                                 </td>
+                                 <td style='padding-left: 5; padding-right: 5;'>
+                                    <span style='color:#eeeee4;' id='manualCheckboxText'>Manual Steps Verification</span>
+                                 </td>
+                                 <td style='padding-left: 5; padding-right: 5;'>
+                                    <input type="checkbox" id="passFlag" name="passFlag" checked="checked"/>
+                                    <label for="passFlag">
+                                       <div class="tick_mark"></div>
+                                    </label>
+                                 </td>
+                                 <td style='padding-left: 5; padding-right: 5;'>
+                                    <span style='color:#eeeee4;' id='passCheckboxText'>Pass Test Cases</span>
+                                 </td>
+                                 <td style='padding-left: 5; padding-right: 5;'>
+                                    <input type="checkbox" id="failFlag" name="failFlag" checked="checked"/>
+                                    <label for="failFlag">
+                                       <div class="tick_mark"></div>
+                                    </label>
+                                 </td>
+                                 <td style='padding-left: 5; padding-right: 5;'>
+                                    <span style='color:#eeeee4;' id='failCheckboxText'>Fail Test Cases</span>
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                    <nav class="accordion arrows">
+                        <header class="box">
+                            <label for="acc-close" class="box-title">Test Execution Report -&ensp;&ensp;&ensp;
+                            Total: 1&ensp;&ensp;&ensp;
+                            <img src='Logos/car_status.png' class='indiumLogoNew' width=auto height='35' style='vertical-align:middle; display:none;' />
+                            Passed: 0&ensp;&ensp;&ensp; 
+                            <img src='Logos/car_status.png' class='indiumLogoNew' width=auto height='35' style='vertical-align:middle; display:none; transform: rotate(160deg);' />
+                            Failed: 1
+                            <button class = 'logs_button' onclick="openPopup()"><strong>Logs</strong></button>
+                            </label>
+                            
+                            </header>
+                            <div class="popup">
+                            <div class="popup-content">
+                            </div>
+                            <button class='close-button' onclick="closePopup()">Close</button>
+                            </div><input type="radio" name="accordion" id="cb1" />
+                            <section class="box">
+                             <label class="box-title failedTitle" style='color:red;' for="cb1">
+                            <img src='Logos/sward.png' class='indiumLogoNew' width=auto height='25' style='vertical-align:middle; transform: rotate(160deg);' />
+                            TC000 : Game Launch and Game Board HUD - Validate HUD in the main Homescreen</label><label class="box-close" for="acc-close"></label>
+                            <div class="box-content">
+                            <table class='stepsTable'>
+                            <thead>
+                                <tr>
+                                <th></th>
+                                <th style='width:50px; padding: 10px; width: 10%;'>Sl. No</th>
+                                <th style='text-align:left;padding-left: 20px; width: 70%;'>Description</th>
+                                <th style='text-align:left; width: 20%;'>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody><tr style='height:30px;'><td></td> <td style='color:blue;'></td><td style='text-align:left;padding-left: 20px; color:blue;'>Application Launched successfully</td>    <td style='text-align:left; color:blue;'>Info</td><tr style='height:30px;'><td></td> <td style='color:green;'>1</td><td style='text-align:left;padding-left: 20px; color:green;'>Validate visual style and design of the "FarmVille3 Logo" is displayed without any errors.</td>    <td style='text-align:left; color:green;'>Pass</td><td style='text-align:center;'><a class="viewScreenshot" style="color:blue" target="_blank" href="screenshots/TC000_1697899037.225996.png"><img class="imgcapture" src="Logos/screenshot.png" width="25" height="25"></a>   <div class="image_preview" style='box-shadow: 0px 0px 15px green;'>   <img src="screenshots/TC000_1697899037.225996.png">    </div>                    </td></tr><tr style='height:30px;'><td></td> <td style='color:red;'>2</td><td style='text-align:left;padding-left: 20px; color:red;'>Fail for demo purpose</td>    <td style='text-align:left; color:red;'>Fail</td><td style='text-align:center;'><a class="viewScreenshot" style="color:blue" target="_blank" href="screenshots/TC000_1697899051.689523.png"><img class="imgcapture" src="Logos/screenshot.png" width="25" height="25"></a>   <div class="image_preview" style='box-shadow: 0px 0px 15px red;'>   <img src="screenshots/TC000_1697899051.689523.png">    </div>                    </td></tr><tr style='height:30px;'> 
+                                                         <td><img src='Logos/magGlass.png' class='manualFlag' width=auto height='25'/></td>
+                                                        <td style='color:#FFA500;'>3</td>
+                                                        <td style='text-align:left;padding-left: 20px; color:#FFA500;'>Should be validated manualy: Validate visual style and design of the "Close Button"</td>    
+                                                        <td style='text-align:left; color:#FFA500;'>Manual Verification</td><td style='text-align:center;'><a class="viewScreenshot" style="color:blue" target="_blank" href="screenshots/TC000_1697899076.711523.png"><img class="imgcapture" src="Logos/screenshot.png" width="25" height="25"></a>   <div class="image_preview" style='box-shadow: 0px 0px 15px #FFA500;'>   <img src="screenshots/TC000_1697899076.711523.png">    </div>                    </td></tr><tr style='height:30px;'><td></td> <td style='color:green;'>4</td><td style='text-align:left;padding-left: 20px; color:green;'>Tap: Close button for Sky Race.</td>    <td style='text-align:left; color:green;'>Pass</td></tbody>
+				        </table>
+                        </div>
+		                </section>
+                        <input type="radio" name="accordion" id="acc-close" />
+                    </nav>
+                    </div>
+                    
+                    <div  class='dragon_container'>
+                        <img class="dragon" src="Logos/dragon.gif">
+                      </div>
+                
+                </body>
+                <script type='text/javascript' src='./Extras/canvasjs.min.js'></script>
+                <script>
+                    function openPopup() {
+                    var popup = document.querySelector('.popup');
+                    var popupContent = popup.querySelector('.popup-content');
+                    const obj = [{'tag': 'function', 'depth': 1, 'time': 1697899016.736682, 'data': {'name': 'connect_device', 'call_args': {'uri': 'android://127.0.0.1:5037/RZ8M31ATM0J'}, 'start_time': 1697899015.4586823, 'ret': "<Android 'RZ8M31ATM0J'>", 'end_time': 1697899016.736682}}, {'tag': 'function', 'depth': 1, 'time': 1697899018.039684, 'data': {'name': 'start_app', 'call_args': {'package': 'com.zynga.farmville3', 'activity': null}, 'start_time': 1697899016.736682, 'ret': null, 'end_time': 1697899018.039684}}, {'tag': 'function', 'depth': 1, 'time': 1697899028.0489922, 'data': {'name': 'sleep', 'call_args': {'secs': 10}, 'start_time': 1697899018.039684, 'ret': null, 'end_time': 1697899028.0489922}}, {'tag': 'function', 'depth': 3, 'time': 1697899037.1140077, 'data': {'name': '_cv_match', 'call_args': {'self': {'filename': '../images/Android/farmVille3Image.png', '_filepath': 'D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/farmVille3Image.png', 'threshold': 0.7, 'target_pos': 5, 'record_pos': null, 'resolution': [], 'rgb': false, 'scale_max': 800, 'scale_step': 0.005, '__class__': 'Template'}, 'screen': 'array([[[133, 174, 167],\n        [129, 170, 163],\n        [126, 167, 160],\n        ...,\n        [180, 212, 255],\n        [181, 213, 255],\n        [181, 213, 255]],\n\n       [[132, 173, 166],\n        [129, 170, 163],\n        [125, 166, 159],\n        ...,\n        [180, 212, 255],\n        [181, 213, 255],\n        [181, 213, 255]],\n\n       [[132, 172, 167],\n        [128, 168, 163],\n        [124, 165, 158],\n        ...,\n        [180, 212, 255],\n        [181, 213, 255],\n        [181, 213, 255]],\n\n       ...,\n\n       [[ 74, 109, 112],\n        [ 71, 106, 109],\n        [ 68, 103, 106],\n        ...,\n        [ 72, 132, 191],\n        [ 72, 132, 191],\n        [ 72, 132, 191]],\n\n       [[ 77, 110, 113],\n        [ 75, 108, 111],\n        [ 72, 105, 108],\n        ...,\n        [ 69, 133, 191],\n        [ 69, 133, 191],\n        [ 69, 133, 191]],\n\n       [[ 78, 111, 114],\n        [ 76, 109, 112],\n        [ 73, 106, 109],\n        ...,\n        [ 67, 134, 191],\n        [ 67, 134, 191],\n        [ 67, 134, 191]]], dtype=uint8)'}, 'start_time': 1697899036.7120266, 'ret': {'result': [1729, 605], 'rectangle': [[553, 50], [553, 1160], [2905, 1160], [2905, 50]], 'confidence': 0.9999585151672363, 'time': 0.30500221252441406}, 'end_time': 1697899037.1140077}}, {'tag': 'function', 'depth': 3, 'time': 1697899037.2219934, 'data': {'name': 'try_log_screen', 'call_args': {'screen': 'array([[[133, 174, 167],\n        [129, 170, 163],\n        [126, 167, 160],\n        ...,\n        [180, 212, 255],\n        [181, 213, 255],\n        [181, 213, 255]],\n\n       [[132, 173, 166],\n        [129, 170, 163],\n        [125, 166, 159],\n        ...,\n        [180, 212, 255],\n        [181, 213, 255],\n        [181, 213, 255]],\n\n       [[132, 172, 167],\n        [128, 168, 163],\n        [124, 165, 158],\n        ...,\n        [180, 212, 255],\n        [181, 213, 255],\n        [181, 213, 255]],\n\n       ...,\n\n       [[ 74, 109, 112],\n        [ 71, 106, 109],\n        [ 68, 103, 106],\n        ...,\n        [ 72, 132, 191],\n        [ 72, 132, 191],\n        [ 72, 132, 191]],\n\n       [[ 77, 110, 113],\n        [ 75, 108, 111],\n        [ 72, 105, 108],\n        ...,\n        [ 69, 133, 191],\n        [ 69, 133, 191],\n        [ 69, 133, 191]],\n\n       [[ 78, 111, 114],\n        [ 76, 109, 112],\n        [ 73, 106, 109],\n        ...,\n        [ 67, 134, 191],\n        [ 67, 134, 191],\n        [ 67, 134, 191]]], dtype=uint8)', 'quality': null, 'max_size': null}, 'start_time': 1697899037.1170053, 'ret': {'screen': '1697899037117.jpg', 'resolution': [3040, 1440]}, 'end_time': 1697899037.2219934}}, {'tag': 'function', 'depth': 2, 'time': 1697899037.225996, 'data': {'name': 'loop_find', 'call_args': {'query': {'filename': '../images/Android/farmVille3Image.png', '_filepath': 'D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/farmVille3Image.png', 'threshold': 0.7, 'target_pos': 5, 'record_pos': null, 'resolution': [], 'rgb': false, 'scale_max': 800, 'scale_step': 0.005, '__class__': 'Template'}, 'timeout': 3, 'threshold': null, 'interval': 0.5, 'intervalfunc': null}, 'start_time': 1697899028.0489922, 'ret': [1729, 605], 'end_time': 1697899037.225996}}, {'tag': 'function', 'depth': 1, 'time': 1697899037.225996, 'data': {'name': 'exists', 'call_args': {'v': {'filename': '../images/Android/farmVille3Image.png', '_filepath': 'D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/farmVille3Image.png', 'threshold': 0.7, 'target_pos': 5, 'record_pos': null, 'resolution': [], 'rgb': false, 'scale_max': 800, 'scale_step': 0.005, '__class__': 'Template'}}, 'start_time': 1697899028.0489922, 'ret': [1729, 605], 'end_time': 1697899037.225996}}, {'tag': 'function', 'depth': 2, 'time': 1697899048.6255226, 'data': {'name': 'try_log_screen', 'call_args': {'screen': 'array([[[133, 174, 167],\n        [129, 170, 163],\n        [126, 167, 160],\n        ...,\n        [180, 212, 255],\n        [181, 213, 255],\n        [181, 213, 255]],\n\n       [[132, 173, 166],\n        [129, 170, 163],\n        [125, 166, 159],\n        ...,\n        [180, 212, 255],\n        [181, 213, 255],\n        [181, 213, 255]],\n\n       [[132, 172, 167],\n        [128, 168, 163],\n        [124, 165, 158],\n        ...,\n        [180, 212, 255],\n        [181, 213, 255],\n        [181, 213, 255]],\n\n       ...,\n\n       [[ 74, 109, 112],\n        [ 71, 106, 109],\n        [ 68, 103, 106],\n        ...,\n        [ 72, 132, 191],\n        [ 72, 132, 191],\n        [ 72, 132, 191]],\n\n       [[ 77, 110, 113],\n        [ 75, 108, 111],\n        [ 72, 105, 108],\n        ...,\n        [ 69, 133, 191],\n        [ 69, 133, 191],\n        [ 69, 133, 191]],\n\n       [[ 78, 111, 114],\n        [ 76, 109, 112],\n        [ 73, 106, 109],\n        ...,\n        [ 67, 134, 191],\n        [ 67, 134, 191],\n        [ 67, 134, 191]]], dtype=uint8)', 'quality': 10, 'max_size': null}, 'start_time': 1697899048.5575244, 'ret': {'screen': '1697899048557.jpg', 'resolution': [3040, 1440]}, 'end_time': 1697899048.6255226}}, {'tag': 'function', 'depth': 1, 'time': 1697899048.6295223, 'data': {'name': 'snapshot', 'call_args': {'filename': 'D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23/Report/Oct_21_2023_08_06_52_PM/Report_Oct_21_2023_08_06_55_PM/screenshots/TC000_1697899037.225996.png', 'msg': 'test', 'quality': null, 'max_size': null}, 'start_time': 1697899037.225996, 'ret': {'screen': '1697899048557.jpg', 'resolution': [3040, 1440]}, 'end_time': 1697899048.6295223}}, {'tag': 'function', 'depth': 2, 'time': 1697899063.2455363, 'data': {'name': 'try_log_screen', 'call_args': {'screen': 'array([[[133, 174, 167],\n        [129, 170, 163],\n        [126, 167, 160],\n        ...,\n        [180, 212, 255],\n        [181, 213, 255],\n        [181, 213, 255]],\n\n       [[132, 173, 166],\n        [129, 170, 163],\n        [125, 166, 159],\n        ...,\n        [180, 212, 255],\n        [181, 213, 255],\n        [181, 213, 255]],\n\n       [[132, 172, 167],\n        [128, 168, 163],\n        [124, 165, 158],\n        ...,\n        [180, 212, 255],\n        [181, 213, 255],\n        [181, 213, 255]],\n\n       ...,\n\n       [[ 74, 109, 112],\n        [ 71, 106, 109],\n        [ 68, 103, 106],\n        ...,\n        [ 72, 132, 191],\n        [ 72, 132, 191],\n        [ 72, 132, 191]],\n\n       [[ 77, 110, 113],\n        [ 75, 108, 111],\n        [ 72, 105, 108],\n        ...,\n        [ 69, 133, 191],\n        [ 69, 133, 191],\n        [ 69, 133, 191]],\n\n       [[ 78, 111, 114],\n        [ 76, 109, 112],\n        [ 73, 106, 109],\n        ...,\n        [ 67, 134, 191],\n        [ 67, 134, 191],\n        [ 67, 134, 191]]], dtype=uint8)', 'quality': 10, 'max_size': null}, 'start_time': 1697899063.1725247, 'ret': {'screen': '1697899063172.jpg', 'resolution': [3040, 1440]}, 'end_time': 1697899063.2455363}}, {'tag': 'function', 'depth': 1, 'time': 1697899063.249523, 'data': {'name': 'snapshot', 'call_args': {'filename': 'D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23/Report/Oct_21_2023_08_06_52_PM/Report_Oct_21_2023_08_06_55_PM/screenshots/TC000_1697899051.689523.png', 'msg': 'test', 'quality': null, 'max_size': null}, 'start_time': 1697899051.6895235, 'ret': {'screen': '1697899063172.jpg', 'resolution': [3040, 1440]}, 'end_time': 1697899063.249523}}, {'tag': 'function', 'depth': 1, 'time': 1697899076.204524, 'data': {'name': 'sleep', 'call_args': {'secs': 10}, 'start_time': 1697899066.1935263, 'ret': null, 'end_time': 1697899076.204524}}, {'tag': 'function', 'depth': 3, 'time': 1697899076.6405241, 'data': {'name': '_cv_match', 'call_args': {'self': {'filename': '../images/Android/skyRaceCloseButton.png', '_filepath': 'D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/skyRaceCloseButton.png', 'threshold': 0.7, 'target_pos': 5, 'record_pos': null, 'resolution': [], 'rgb': false, 'scale_max': 800, 'scale_step': 0.005, '__class__': 'Template'}, 'screen': 'array([[[ 43,  48,  69],\n        [ 43,  48,  69],\n        [ 43,  48,  69],\n        ...,\n        [ 23,  72,  58],\n        [ 23,  72,  58],\n        [ 23,  72,  58]],\n\n       [[ 43,  48,  69],\n        [ 43,  48,  69],\n        [ 43,  48,  69],\n        ...,\n        [ 23,  72,  58],\n        [ 23,  72,  58],\n        [ 23,  72,  58]],\n\n       [[ 44,  49,  70],\n        [ 43,  48,  69],\n        [ 43,  48,  69],\n        ...,\n        [ 23,  72,  58],\n        [ 23,  72,  58],\n        [ 23,  72,  58]],\n\n       ...,\n\n       [[ 27,  80, 101],\n        [ 27,  80, 101],\n        [ 27,  79, 102],\n        ...,\n        [  7,  98,  75],\n        [  7,  98,  75],\n        [  7,  98,  75]],\n\n       [[ 28,  78, 100],\n        [ 28,  78, 100],\n        [ 28,  78, 101],\n        ...,\n        [  3,  99,  75],\n        [  3,  99,  75],\n        [  3,  99,  75]],\n\n       [[ 28,  78, 100],\n        [ 27,  77,  99],\n        [ 28,  78, 101],\n        ...,\n        [  1,  99,  75],\n        [  1,  99,  75],\n        [  1,  99,  75]]], dtype=uint8)'}, 'start_time': 1697899076.3595228, 'ret': {'result': [2255, 258], 'rectangle': [[2210, 218], [2210, 298], [2300, 298], [2300, 218]], 'confidence': 0.9999480247497559, 'time': 0.27899765968322754}, 'end_time': 1697899076.6405241}}, {'tag': 'function', 'depth': 3, 'time': 1697899076.7085254, 'data': {'name': 'try_log_screen', 'call_args': {'screen': 'array([[[ 43,  48,  69],\n        [ 43,  48,  69],\n        [ 43,  48,  69],\n        ...,\n        [ 23,  72,  58],\n        [ 23,  72,  58],\n        [ 23,  72,  58]],\n\n       [[ 43,  48,  69],\n        [ 43,  48,  69],\n        [ 43,  48,  69],\n        ...,\n        [ 23,  72,  58],\n        [ 23,  72,  58],\n        [ 23,  72,  58]],\n\n       [[ 44,  49,  70],\n        [ 43,  48,  69],\n        [ 43,  48,  69],\n        ...,\n        [ 23,  72,  58],\n        [ 23,  72,  58],\n        [ 23,  72,  58]],\n\n       ...,\n\n       [[ 27,  80, 101],\n        [ 27,  80, 101],\n        [ 27,  79, 102],\n        ...,\n        [  7,  98,  75],\n        [  7,  98,  75],\n        [  7,  98,  75]],\n\n       [[ 28,  78, 100],\n        [ 28,  78, 100],\n        [ 28,  78, 101],\n        ...,\n        [  3,  99,  75],\n        [  3,  99,  75],\n        [  3,  99,  75]],\n\n       [[ 28,  78, 100],\n        [ 27,  77,  99],\n        [ 28,  78, 101],\n        ...,\n        [  1,  99,  75],\n        [  1,  99,  75],\n        [  1,  99,  75]]], dtype=uint8)', 'quality': null, 'max_size': null}, 'start_time': 1697899076.6415224, 'ret': {'screen': '1697899076641.jpg', 'resolution': [3040, 1440]}, 'end_time': 1697899076.7085254}}, {'tag': 'function', 'depth': 2, 'time': 1697899076.7115238, 'data': {'name': 'loop_find', 'call_args': {'query': {'filename': '../images/Android/skyRaceCloseButton.png', '_filepath': 'D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/skyRaceCloseButton.png', 'threshold': 0.7, 'target_pos': 5, 'record_pos': null, 'resolution': [], 'rgb': false, 'scale_max': 800, 'scale_step': 0.005, '__class__': 'Template'}, 'timeout': 30, 'interval': 0.5, 'intervalfunc': null, 'threshold': null}, 'start_time': 1697899076.204524, 'ret': [2255, 258], 'end_time': 1697899076.7115238}}, {'tag': 'function', 'depth': 1, 'time': 1697899076.7115238, 'data': {'name': 'wait', 'call_args': {'v': {'filename': '../images/Android/skyRaceCloseButton.png', '_filepath': 'D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/skyRaceCloseButton.png', 'threshold': 0.7, 'target_pos': 5, 'record_pos': null, 'resolution': [], 'rgb': false, 'scale_max': 800, 'scale_step': 0.005, '__class__': 'Template'}, 'timeout': 30, 'interval': 0.5, 'intervalfunc': null}, 'start_time': 1697899076.204524, 'ret': [2255, 258], 'end_time': 1697899076.7115238}}, {'tag': 'function', 'depth': 2, 'time': 1697899088.522523, 'data': {'name': 'try_log_screen', 'call_args': {'screen': 'array([[[ 43,  48,  69],\n        [ 43,  48,  69],\n        [ 43,  48,  69],\n        ...,\n        [ 25,  71,  58],\n        [ 25,  71,  58],\n        [ 25,  71,  58]],\n\n       [[ 43,  48,  69],\n        [ 43,  48,  69],\n        [ 43,  48,  69],\n        ...,\n        [ 25,  71,  58],\n        [ 25,  71,  58],\n        [ 25,  71,  58]],\n\n       [[ 44,  49,  70],\n        [ 43,  48,  69],\n        [ 43,  48,  69],\n        ...,\n        [ 25,  71,  58],\n        [ 25,  71,  58],\n        [ 25,  71,  58]],\n\n       ...,\n\n       [[ 39,  96, 127],\n        [ 39,  96, 127],\n        [ 39,  96, 127],\n        ...,\n        [  7,  98,  75],\n        [  7,  98,  75],\n        [  7,  98,  75]],\n\n       [[ 39,  96, 127],\n        [ 39,  96, 127],\n        [ 39,  96, 127],\n        ...,\n        [  3,  99,  75],\n        [  3,  99,  75],\n        [  3,  99,  75]],\n\n       [[ 39,  96, 127],\n        [ 39,  96, 127],\n        [ 39,  96, 127],\n        ...,\n        [  1,  99,  75],\n        [  1,  99,  75],\n        [  1,  99,  75]]], dtype=uint8)', 'quality': 10, 'max_size': null}, 'start_time': 1697899088.4545255, 'ret': {'screen': '1697899088454.jpg', 'resolution': [3040, 1440]}, 'end_time': 1697899088.522523}}, {'tag': 'function', 'depth': 1, 'time': 1697899088.5255237, 'data': {'name': 'snapshot', 'call_args': {'filename': 'D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23/Report/Oct_21_2023_08_06_52_PM/Report_Oct_21_2023_08_06_55_PM/screenshots/TC000_1697899076.711523.png', 'msg': 'test', 'quality': null, 'max_size': null}, 'start_time': 1697899076.7115238, 'ret': {'screen': '1697899088454.jpg', 'resolution': [3040, 1440]}, 'end_time': 1697899088.5255237}}, {'tag': 'function', 'depth': 3, 'time': 1697899091.117523, 'data': {'name': '_cv_match', 'call_args': {'self': {'filename': '../images/Android/skyRaceCloseButton.png', '_filepath': 'D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/skyRaceCloseButton.png', 'threshold': 0.7, 'target_pos': 5, 'record_pos': null, 'resolution': [], 'rgb': false, 'scale_max': 800, 'scale_step': 0.005, '__class__': 'Template'}, 'screen': 'array([[[ 45,  53,  76],\n        [ 45,  53,  76],\n        [ 45,  53,  76],\n        ...,\n        [ 28,  77,  63],\n        [ 28,  77,  63],\n        [ 28,  77,  63]],\n\n       [[ 45,  53,  76],\n        [ 45,  53,  76],\n        [ 45,  53,  76],\n        ...,\n        [ 28,  77,  63],\n        [ 28,  77,  63],\n        [ 28,  77,  63]],\n\n       [[ 45,  53,  76],\n        [ 45,  53,  76],\n        [ 45,  53,  76],\n        ...,\n        [ 28,  77,  63],\n        [ 28,  77,  63],\n        [ 28,  77,  63]],\n\n       ...,\n\n       [[ 39,  96, 127],\n        [ 39,  96, 127],\n        [ 39,  96, 127],\n        ...,\n        [  7,  98,  75],\n        [  7,  98,  75],\n        [  7,  98,  75]],\n\n       [[ 39,  96, 127],\n        [ 39,  96, 127],\n        [ 39,  96, 127],\n        ...,\n        [  3,  99,  75],\n        [  3,  99,  75],\n        [  3,  99,  75]],\n\n       [[ 39,  96, 127],\n        [ 39,  96, 127],\n        [ 39,  96, 127],\n        ...,\n        [  1,  99,  75],\n        [  1,  99,  75],\n        [  1,  99,  75]]], dtype=uint8)'}, 'start_time': 1697899090.8165338, 'ret': {'result': [2255, 258], 'rectangle': [[2210, 218], [2210, 298], [2300, 298], [2300, 218]], 'confidence': 0.9999387860298157, 'time': 0.2989957332611084}, 'end_time': 1697899091.117523}}, {'tag': 'function', 'depth': 3, 'time': 1697899091.198535, 'data': {'name': 'try_log_screen', 'call_args': {'screen': 'array([[[ 45,  53,  76],\n        [ 45,  53,  76],\n        [ 45,  53,  76],\n        ...,\n        [ 28,  77,  63],\n        [ 28,  77,  63],\n        [ 28,  77,  63]],\n\n       [[ 45,  53,  76],\n        [ 45,  53,  76],\n        [ 45,  53,  76],\n        ...,\n        [ 28,  77,  63],\n        [ 28,  77,  63],\n        [ 28,  77,  63]],\n\n       [[ 45,  53,  76],\n        [ 45,  53,  76],\n        [ 45,  53,  76],\n        ...,\n        [ 28,  77,  63],\n        [ 28,  77,  63],\n        [ 28,  77,  63]],\n\n       ...,\n\n       [[ 39,  96, 127],\n        [ 39,  96, 127],\n        [ 39,  96, 127],\n        ...,\n        [  7,  98,  75],\n        [  7,  98,  75],\n        [  7,  98,  75]],\n\n       [[ 39,  96, 127],\n        [ 39,  96, 127],\n        [ 39,  96, 127],\n        ...,\n        [  3,  99,  75],\n        [  3,  99,  75],\n        [  3,  99,  75]],\n\n       [[ 39,  96, 127],\n        [ 39,  96, 127],\n        [ 39,  96, 127],\n        ...,\n        [  1,  99,  75],\n        [  1,  99,  75],\n        [  1,  99,  75]]], dtype=uint8)', 'quality': null, 'max_size': null}, 'start_time': 1697899091.1185238, 'ret': {'screen': '1697899091118.jpg', 'resolution': [3040, 1440]}, 'end_time': 1697899091.198535}}, {'tag': 'function', 'depth': 2, 'time': 1697899091.20253, 'data': {'name': 'loop_find', 'call_args': {'query': {'filename': '../images/Android/skyRaceCloseButton.png', '_filepath': 'D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/skyRaceCloseButton.png', 'threshold': 0.7, 'target_pos': 5, 'record_pos': null, 'resolution': [], 'rgb': false, 'scale_max': 800, 'scale_step': 0.005, '__class__': 'Template'}, 'timeout': 20, 'threshold': null, 'interval': 0.5, 'intervalfunc': null}, 'start_time': 1697899090.6425245, 'ret': [2255, 258], 'end_time': 1697899091.20253}}, {'tag': 'function', 'depth': 1, 'time': 1697899093.5155282, 'data': {'name': 'touch', 'call_args': {'v': {'filename': '../images/Android/skyRaceCloseButton.png', '_filepath': 'D:\\Data\\Official\\Report_UI_modificaton\\GameReport\\iGafe FV3_pass_fail_12_10_23\\iGafe\\base\\../images/Android/skyRaceCloseButton.png', 'threshold': 0.7, 'target_pos': 5, 'record_pos': null, 'resolution': [], 'rgb': false, 'scale_max': 800, 'scale_step': 0.005, '__class__': 'Template'}, 'kwargs': {'duration': 0.5}, 'times': 1}, 'start_time': 1697899090.6425245, 'ret': [2255, 258], 'end_time': 1697899093.5155282}}, {'tag': 'function', 'depth': 1, 'time': 1697899098.5275648, 'data': {'name': 'sleep', 'call_args': {'secs': 5}, 'start_time': 1697899093.5155282, 'ret': null, 'end_time': 1697899098.5275648}}, {'tag': 'function', 'depth': 1, 'time': 1697899099.0145698, 'data': {'name': 'stop_app', 'call_args': {'package': 'com.zynga.farmville3'}, 'start_time': 1697899098.5275648, 'ret': null, 'end_time': 1697899099.0145698}}];
+                    const jsonString = JSON.stringify(obj);
+                    var data = JSON.parse(jsonString);
+                    var content = '<pre>' + JSON.stringify(data, null, 4) + '</pre>';
+                    popupContent.innerHTML = content;
+                    popup.style.display = 'flex';
+                    }
+                    
+                    function closePopup() {
+                    var popup = document.querySelector('.popup');
+                    popup.style.display = 'none';
+                    }
+                    </script>
+                    
+                     <script>
+                          var passcheck = document.getElementById('passFlag');
+                          var passcheckText = document.getElementById('passCheckboxText'); 
+                          var failcheck = document.getElementById('failFlag');
+                          var failcheckText = document.getElementById('failCheckboxText');
+                          var Manualcheck = document.getElementById('manualFlag');
+                          var ManualcheckText = document.getElementById('manualCheckboxText');
+                          var sections = Array.from(document.querySelectorAll('section'));
+                          
+                            function updateCheckboxBGColor(){
+                                if(passcheck.checked){
+                                    passcheckText.style.color = "black";
+                                    passCheckboxText.parentElement.style.background = 'white';
+                                    passCheckboxText.parentElement.style.borderRadius  = '5px';
+                                } else {
+                                    passcheckText.style.color = "white";
+                                    passCheckboxText.parentElement.style.background = 'none';
+                                    }
+                                    
+                                if(failcheck.checked){
+                                    failcheckText.style.color = "black";
+                                    failcheckText.parentElement.style.background = 'white';
+                                    failcheckText.parentElement.style.borderRadius  = '5px';
+                                } else {
+                                    failcheckText.style.color = "white";
+                                    failcheckText.parentElement.style.background = 'none';
+                                    }
+                                if(Manualcheck.checked){
+                                    ManualcheckText.style.color = "black";
+                                    ManualcheckText.parentElement.style.background = 'white';
+                                    ManualcheckText.parentElement.style.borderRadius  = '5px';
+                                } else {
+                                    ManualcheckText.style.color = "white";
+                                    ManualcheckText.parentElement.style.background = 'none';
+                                    }
+                            }
+                          
+                            function updateSectionVisibility() {
+                                    var colorClassPass = passcheck.checked ? 'passedTitle' : "none";
+                                    var colorClassFail = failcheck.checked ? 'failedTitle' : "none";
+                                    sections.forEach(function (section) {
+                                        section.style.display = 'block';
+                                        var rows = section.querySelectorAll('table tbody tr');
+                                        rows.forEach(row => {
+                                                row.style.display = 'table-row';
+                                            });
+                                        var label = section.querySelector('label.box-title');
+                                            
+                                        if (passcheck.checked && failcheck.checked){
+                                            section.style.display = 'block';
+                                        } else if (passcheck.checked && !failcheck.checked){
+                                            Manualcheck.checked = false;
+                                            if (label && label.classList.contains("passedTitle")) {
+                                            section.style.display = 'block';
+                                            } else{
+                                                section.style.display = 'none';
+                                            }
+                                        } else if (!passcheck.checked && failcheck.checked){
+                                            Manualcheck.checked = false;
+                                            if (label && label.classList.contains("failedTitle")) {
+                                            section.style.display = 'block';
+                                            } else{
+                                                section.style.display = 'none';
+                                            }
+                                        } else if (!passcheck.checked && !failcheck.checked){
+                                                section.style.display = 'none';
+                                            }
+                                    });
+                                    updateCheckboxBGColor();
+                                }
+                                function updateSectionManual() {
+                                        passcheck.checked = true;
+                                        failcheck.checked = true;
+                                        updateSectionVisibility();
+                                        if (!Manualcheck.checked) {
+                                                sections.forEach(section => {
+                                                        section.style.display = 'block';
+                                                        var rows = section.querySelectorAll('table tbody tr');
+                                                        rows.forEach(row => {
+                                                                row.style.display = 'table-row';
+                                                            });
+                                                });
+                                                passcheck.disabled = false;
+                                                failcheck.disabled = false;
+                                                passcheck.parentElement.style.filter = "grayscale(0%)";
+                                                failcheck.parentElement.style.filter = "grayscale(0%)";
+                                        }else {
+                                            passcheck.disabled = true;
+                                            failcheck.disabled = true;
+                                            passcheck.parentElement.style.filter = "grayscale(100%)";
+                                            failcheck.parentElement.style.filter = "grayscale(100%)";
+                                                sections.forEach(section => {
+                                                    var rows = section.querySelectorAll('table tbody tr');
+                                                    var sectionDisplay = false;
+                                                    rows.forEach(row => {
+                                                        var imgTag = row.querySelector('img.manualFlag')
+                                                        if (Manualcheck.checked && imgTag != null) {
+                                                            row.style.display = 'table-row';
+                                                            sectionDisplay = true;
+                                                        } else {
+                                                            row.style.display = 'none';
+                                                        }
+                                                    });
+                                                    
+                                                    
+                                                if (!sectionDisplay) {
+                                                    section.style.display = 'none';	
+                                                }
+                                        });
+                                        }
+                                        updateCheckboxBGColor();
+                                    }
+                                    passcheck.addEventListener("change", updateSectionVisibility);
+                                    failcheck.addEventListener("change", updateSectionVisibility);
+                                    manualFlag.addEventListener("change", updateSectionManual);
+                                          
+                                    updateSectionVisibility();
+                                
+                       </script>
+                </html>

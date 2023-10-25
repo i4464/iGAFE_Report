@@ -1,0 +1,64 @@
+{
+    "Tests": [
+        {
+            "ID": "TC000",
+            "Description": "Game Launch and Game Board HUD - Validate HUD in the main Homescreen",
+            "Status": "Fail",
+            "Steps": [
+                {
+                    "Description": "Application Launched successfully",
+                    "Status": "Info",
+                    "ScreenshotPath": ""
+                },
+                {
+                    "Description": "Validate visual style and design of the \"FarmVille3 Logo\" is displayed without any errors.",
+                    "Status": "Pass",
+                    "ScreenshotPath": "screenshots/TC000_1697899311.483747.png"
+                },
+                {
+                    "Description": "Fail for demo purpose",
+                    "Status": "Fail",
+                    "ScreenshotPath": "screenshots/TC000_1697899343.31544.png"
+                }
+            ]
+        },
+        {
+            "ID": "TC002",
+            "Description": "THE YOUNG WOLF - Game Board HUD - Coins HUD Validation",
+            "Status": "Pass",
+            "Steps": [
+                {
+                    "Description": "Validating Coins HUD",
+                    "Status": "Info",
+                    "ScreenshotPath": ""
+                },
+                {
+                    "Description": "Validate visual style and design of the 'Coins button' is displayed without any error.",
+                    "Status": "Pass",
+                    "ScreenshotPath": "screenshots/TC002_1697899427.578833.png"
+                },
+                {
+                    "Description": "Tap: Coins button.",
+                    "Status": "Pass",
+                    "ScreenshotPath": ""
+                },
+                {
+                    "Description": "Tap: Close button.",
+                    "Status": "Pass",
+                    "ScreenshotPath": ""
+                }
+            ]
+        }
+    ],
+    "Total_TC_Count": 2,
+    "Passed_TC_Count": 1,
+    "Failed_TC_Count": 1,
+    "Game": "Farm Ville 3",
+    "StartTime": "2023-10-21 20:11:17.051693",
+    "EndTime": "2023-10-21 20:14:27.745185",
+    "Duration": "03 min 10 sec",
+    "Platform": "Android",
+    "Machine": [
+        "The Young Wolf"
+    ]
+}

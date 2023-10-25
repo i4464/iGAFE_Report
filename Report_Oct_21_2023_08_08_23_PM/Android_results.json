@@ -1,0 +1,74 @@
+{
+    "Tests": [
+        {
+            "ID": "TC000",
+            "Description": "Game Launch and Game Board HUD - Validate HUD in the main Homescreen",
+            "Status": "Fail",
+            "Steps": [
+                {
+                    "Description": "Application Launched successfully",
+                    "Status": "Info",
+                    "ScreenshotPath": ""
+                },
+                {
+                    "Description": "Validate visual style and design of the \"FarmVille3 Logo\" is displayed without any errors.",
+                    "Status": "Pass",
+                    "ScreenshotPath": "screenshots/TC000_1697899124.875622.png"
+                },
+                {
+                    "Description": "Fail for demo purpose",
+                    "Status": "Fail",
+                    "ScreenshotPath": "screenshots/TC000_1697899139.335624.png"
+                },
+                {
+                    "Description": "Should be validated manualy: Validate visual style and design of the \"Close Button\"",
+                    "Status": "Manual Verification",
+                    "ScreenshotPath": "screenshots/TC000_1697899175.924447.png"
+                },
+                {
+                    "Description": "Tap: Close button for Sky Race.",
+                    "Status": "Pass",
+                    "ScreenshotPath": ""
+                }
+            ]
+        },
+        {
+            "ID": "TC001",
+            "Description": "MOTHER OF DRAGONS - Game Board HUD -  XP HUD Validation",
+            "Status": "Pass",
+            "Steps": [
+                {
+                    "Description": "Validate XP HUD",
+                    "Status": "Info",
+                    "ScreenshotPath": ""
+                },
+                {
+                    "Description": "Tap: XP button.",
+                    "Status": "Pass",
+                    "ScreenshotPath": "screenshots/TC001_1697899202.667659.png"
+                },
+                {
+                    "Description": "Validate visual style and design of the \"Collect XP\" is displayed without any errors.",
+                    "Status": "Pass",
+                    "ScreenshotPath": "screenshots/TC001_1697899222.91861.png"
+                },
+                {
+                    "Description": "Tap: Close button.",
+                    "Status": "Pass",
+                    "ScreenshotPath": ""
+                }
+            ]
+        }
+    ],
+    "Total_TC_Count": 2,
+    "Passed_TC_Count": 1,
+    "Failed_TC_Count": 1,
+    "Game": "Farm Ville 3",
+    "StartTime": "2023-10-21 20:08:23.680100",
+    "EndTime": "2023-10-21 20:11:02.065753",
+    "Duration": "02 min 38 sec",
+    "Platform": "Android",
+    "Machine": [
+        "Mother of Dragons"
+    ]
+}
